@@ -4,7 +4,8 @@ Site estático da Calead. Sem build step: HTML, CSS inline e um script de compor
 
 ## Estrutura
 
-- `index.html` — home completa
+- `index.html` — home completa (v1)
+- `v2.html` — narrativa unidirecional em seis atos, para teste comparativo (`/v2`, com noindex)
 - `assets/` — logo e favicon
 - `anim/jornada.html` — diagrama animado do caminho do lead (embutido via iframe na seção Plataforma)
 - `anim/comparativo.html` — diagrama animado do comparativo
