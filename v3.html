@@ -4,11 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Calead | O motor comercial de negócios B2B que vendem por reunião</title>
-<meta name="description" content="Agentes de IA que atendem, qualificam, agendam e recuperam os leads que já chegam no seu site.">
-<meta name="robots" content="noindex">
+<meta name="description" content="Agentes de IA que atendem, qualificam, agendam e recuperam os leads que já chegam no seu site. Seu time entra na sala só para fechar, no olho no olho.">
+<link rel="canonical" href="https://calead.ai/">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://calead.ai/">
 <meta property="og:title" content="Calead | O motor comercial de negócios B2B que vendem por reunião">
 <meta property="og:description" content="Agentes de IA que atendem, qualificam, agendam e recuperam os leads que já chegam no seu site.">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,17 +20,19 @@
 <script src="https://app.calead.ai/widget.js" data-schedule="8qUuH40HZZK0z896wtrJ"></script>
 <style>
 html { scroll-behavior: smooth; overflow-x: hidden; }
-body { margin: 0; background: #0C0D08; color: #F0F1E8; -webkit-font-smoothing: antialiased; }
+body { margin: 0; background: #0C0D08; color: #F0F1E8; -webkit-font-smoothing: antialiased; font-family: Archivo, system-ui, sans-serif; }
 a { color: #D6EB1E; text-decoration: none; transition: color .2s, background .2s, border-color .2s; }
 a:hover { color: #E6F55C; }
 ::selection { background: #D6EB1E; color: #11120C; }
 .hv-ink:hover { color: #F0F1E8; }
 .hv-acc:hover { color: #D6EB1E; }
 .hv-btn:hover { background: #E6F55C; }
+.hv-brd:hover { border-color: rgba(214,235,30,.55); }
 [hidden] { display: none !important; }
-.faqicon { display: inline-block; }
+[data-faqicon] { display: inline-block; }
 @keyframes calead-ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @keyframes calead-pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+@keyframes calead-cue { 0% { transform: translateY(-6px); opacity: 0; } 40% { opacity: 1; } 100% { transform: translateY(10px); opacity: 0; } }
 @media (max-width: 1080px) { .nav-links { display: none !important; } }
 @media (max-width: 760px) {
   .nav-logo img { height: 20px !important; }
@@ -44,7 +48,7 @@ a:hover { color: #E6F55C; }
 
 <header style="position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rgba(12,13,8,.7);border-bottom:1px solid rgba(170,172,150,.1)">
 <nav style="max-width:1180px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px">
-<a href="#top" class="nav-logo" style="display:flex;align-items:center"><img src="assets/logo-calead.svg" alt="Calead" style="height:24px;width:auto;display:block"></a>
+<a href="#top" class="nav-logo" style="display:flex;align-items:center"><img src="assets/logo-calead.svg" alt="Calead" style="height:26px;width:auto;display:block"></a>
 <div class="nav-links" style="display:flex;align-items:center;gap:26px;font:500 14px/1 Archivo,sans-serif">
 
 <a href="#virada" style="color:rgba(184,186,164,.85)" class="hv-ink">A solução</a>
@@ -68,9 +72,13 @@ a:hover { color: #E6F55C; }
 </div>
 
 <div style="position:relative;width:100%;max-width:1180px;margin:0 auto;padding:clamp(64px,9vh,110px) 24px clamp(190px,26vh,300px);display:flex;flex-direction:column;align-items:center;text-align:center">
-<p style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#D6EB1E;margin:0 0 28px">Agentes de IA para atendimento, agendamento e recuperação</p>
-<h1 style="font:400 clamp(42px,7.2vw,92px)/1.01 'Bricolage Grotesque',sans-serif;letter-spacing:-.038em;color:#F0F1E8;margin:0 0 26px;max-width:18ch;text-wrap:balance">O motor comercial de negócios B2B que vendem por reunião.</h1>
+<img src="assets/eyebrow.svg" alt="Agentes de IA para atendimento, agendamento e recuperação" style="display:block;width:100%;max-width:620px;height:auto;margin:0 auto 30px;opacity:.92">
+<h1 style="font:400 clamp(38px,6.5vw,83px)/1.02 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.038em;color:#F0F1E8;margin:0 0 26px;max-width:18ch;text-wrap:balance">O motor comercial de negócios B2B que vendem por reunião.</h1>
 <p style="font:400 clamp(17px,1.5vw,20px)/1.55 Archivo,sans-serif;color:rgba(240,241,232,.92);margin:0;max-width:54ch;text-wrap:pretty">Agentes de IA conversam com cada visitante do seu site em segundos, agendam, confirmam e recuperam quem sumiu. Seu time entra na sala preparado e só para fechar.</p>
+<div style="display:flex;flex-direction:column;align-items:center;gap:10px;margin:38px 0 0">
+<p style="font:500 12.5px/1 Archivo,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:rgba(240,241,232,.62);margin:0">(teste você mesmo)</p>
+<svg viewBox="0 0 24 44" width="20" height="36" fill="none" stroke="rgba(240,241,232,.55)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" style="display:block;animation:calead-cue 2.6s ease-in-out infinite"><path d="M12 2v36"/><path d="M4.5 30.5 12 39l7.5-8.5"/></svg>
+</div>
 </div>
 </section>
 
@@ -84,116 +92,284 @@ a:hover { color: #E6F55C; }
 <section id="espera" style="padding:clamp(96px,13vw,180px) 0 clamp(88px,11vw,140px)">
 <div style="max-width:1180px;margin:0 auto;padding:0 24px">
 <p style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:rgba(164,166,142,.6);margin:0 0 28px">01 · O modelo atual</p>
-<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 28px;max-width:20ch;text-wrap:balance">O funil B2B foi desenhado para a conveniência de quem vende.</h2>
+<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 28px;max-width:20ch;text-wrap:balance">O funil B2B foi desenhado para a conveniência de quem vende.</h2>
 <p style="font:400 clamp(17px,1.6vw,19px)/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 clamp(56px,7vw,88px);max-width:58ch;text-wrap:pretty">Formulário, espera e follow-up manual. O comprador atravessa cada uma dessas etapas sozinho, e o funil perde reunião em dois pontos.</p>
 
 <div style="display:flex;flex-wrap:wrap;gap:1px;background:rgba(170,172,150,.16);border:1px solid rgba(170,172,150,.16);border-radius:12px;overflow:hidden">
-<div data-reveal style="flex:1 1 46%;min-width:300px;background:#0C0D08;padding:clamp(32px,4vw,48px) clamp(26px,3vw,40px)">
+<div data-reveal style="flex:1 1 46%;min-width:min(300px,100%);background:#0C0D08;padding:clamp(32px,4vw,48px) clamp(26px,3vw,40px)">
 <p style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:rgba(164,166,142,.55);margin:0 0 16px">Buraco 01</p>
-<h3 style="font:400 clamp(24px,2.8vw,34px)/1.14 'Bricolage Grotesque',sans-serif;letter-spacing:-.028em;color:#F0F1E8;margin:0 0 14px;max-width:20ch">O interesse não vira conversa</h3>
+<h3 style="font:400 clamp(24px,2.8vw,34px)/1.14 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.028em;color:#F0F1E8;margin:0 0 14px;max-width:20ch">O interesse não vira conversa</h3>
 <p style="font:400 15px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 32px;max-width:44ch;text-wrap:pretty">O visitante chega no auge do interesse e encontra um campo de formulário. Depois disso, ele espera.</p>
 <div style="display:flex;flex-wrap:wrap;gap:28px"><div style="flex:1 1 220px">
-<p style="font:400 clamp(38px,4.4vw,56px)/.96 'Bricolage Grotesque',sans-serif;letter-spacing:-.045em;color:#D6EB1E;margin:0 0 12px">55%</p>
-<p style="font:400 14.5px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">abandonam formulários B2B antes de completar.</p>
+<p style="font:400 clamp(38px,4.4vw,56px)/.96 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.045em;color:#D6EB1E;margin:0 0 12px">55%</p>
+<p style="font:400 14.5px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">abandonam formulários B2B antes de completar.</p><div style="display:flex;gap:3px;margin-top:16px"><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:rgba(170,172,150,.14)"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:#D6EB1E"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:#D6EB1E"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:#D6EB1E"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:#D6EB1E"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:#D6EB1E"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:#D6EB1E"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:#D6EB1E"></span><span style="flex:1 1 auto;height:22px;border-radius:2px;background:#D6EB1E"></span></div>
 </div><div style="flex:1 1 220px">
-<p style="font:400 clamp(38px,4.4vw,56px)/.96 'Bricolage Grotesque',sans-serif;letter-spacing:-.045em;color:#D6EB1E;margin:0 0 12px">42 horas</p>
-<p style="font:400 14.5px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">é a resposta média das empresas B2B, e 23% nunca respondem.</p>
+<p style="font:400 clamp(38px,4.4vw,56px)/.96 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.045em;color:#D6EB1E;margin:0 0 12px">42 horas</p>
+<p style="font:400 14.5px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">é a resposta média das empresas B2B, e 23% nunca respondem.</p><div style="margin-top:18px">
+<div style="position:relative;height:2px;background:rgba(170,172,150,.16);border-radius:999px">
+<span style="position:absolute;left:0;top:-3px;width:8px;height:8px;border-radius:999px;background:#D6EB1E"></span>
+<span style="position:absolute;left:100%;top:-3px;transform:translateX(-100%);width:8px;height:8px;border-radius:999px;border:1px solid rgba(170,172,150,.45)"></span>
+</div>
+<div style="display:flex;justify-content:space-between;margin-top:9px;font:500 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(164,166,142,.5)"><span>5 min</span><span>1h</span><span>1 dia</span><span>42h</span></div>
+</div>
 </div></div>
 </div>
-<div data-reveal style="flex:1 1 46%;min-width:300px;background:#0C0D08;padding:clamp(32px,4vw,48px) clamp(26px,3vw,40px)">
+<div data-reveal style="flex:1 1 46%;min-width:min(300px,100%);background:#0C0D08;padding:clamp(32px,4vw,48px) clamp(26px,3vw,40px)">
 <p style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:rgba(164,166,142,.55);margin:0 0 16px">Buraco 02</p>
-<h3 style="font:400 clamp(24px,2.8vw,34px)/1.14 'Bricolage Grotesque',sans-serif;letter-spacing:-.028em;color:#F0F1E8;margin:0 0 14px;max-width:20ch">A conversa não vira reunião</h3>
+<h3 style="font:400 clamp(24px,2.8vw,34px)/1.14 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.028em;color:#F0F1E8;margin:0 0 14px;max-width:20ch">A conversa não vira reunião</h3>
 <p style="font:400 15px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 32px;max-width:44ch;text-wrap:pretty">Quando a resposta enfim sai, o momento passou. E o que foi marcado ainda pode não acontecer.</p>
 <div style="display:flex;flex-wrap:wrap;gap:28px"><div style="flex:1 1 220px">
-<p style="font:400 clamp(38px,4.4vw,56px)/.96 'Bricolage Grotesque',sans-serif;letter-spacing:-.045em;color:#D6EB1E;margin:0 0 12px">21x</p>
-<p style="font:400 14.5px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">mais chances de qualificar respondendo em até 5 minutos.</p>
+<p style="font:400 clamp(38px,4.4vw,56px)/.96 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.045em;color:#D6EB1E;margin:0 0 12px">21x</p>
+<p style="font:400 14.5px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">mais chances de qualificar respondendo em até 5 minutos.</p><svg viewBox="0 0 100 34" preserveAspectRatio="none" style="width:100%;height:34px;display:block;margin-top:16px"><path d="M0,3 C10,3 16,20 30,26 C48,32 70,32 100,32" fill="none" stroke="#D6EB1E" stroke-width="1.8" vector-effect="non-scaling-stroke"/><path d="M0,3 C10,3 16,20 30,26 C48,32 70,32 100,32 L100,34 L0,34 Z" fill="rgba(214,235,30,.07)" stroke="none"/></svg>
 </div><div style="flex:1 1 220px">
-<p style="font:400 clamp(38px,4.4vw,56px)/.96 'Bricolage Grotesque',sans-serif;letter-spacing:-.045em;color:#D6EB1E;margin:0 0 12px">30 a 50%</p>
-<p style="font:400 14.5px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">das demos agendadas terminam em no-show.</p>
+<p style="font:400 clamp(38px,4.4vw,56px)/.96 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.045em;color:#D6EB1E;margin:0 0 12px">30 a 50%</p>
+<p style="font:400 14.5px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">das demos agendadas terminam em no-show.</p><div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:18px;max-width:190px"><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span><span style="width:7px;height:7px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span></div>
 </div></div>
 </div>
 </div>
 
 
 <div style="margin: clamp(64px,8vw,104px) 0 0; margin-top: 49px">
-<p style="font: 400 clamp(19px,2.2vw,28px)/1.4 'Bricolage Grotesque',sans-serif; color: #F0F1E8; margin: 0 0 36px; max-width: 44ch; text-wrap: pretty; width: 900px; height: 91px">Na prática, o lead sobe uma ladeira. <br>E a maioria desiste no meio.</p>
+<p style="font: 400 clamp(19px,2.2vw,28px)/1.4 'Stack Sans Headline','Bricolage Grotesque',sans-serif; color: #F0F1E8; margin: 0 0 36px; max-width: 44ch; text-wrap: pretty; width: 900px; height: 91px">Na prática, o lead sobe uma ladeira. <br>E a maioria desiste no meio.</p>
 <div style="border:1px solid rgba(170,172,150,.16);background:#0C0D08;padding:clamp(18px,3vw,36px);border-radius:12px">
 <iframe data-anim data-ar-d="900/524" data-ar-m="340/604" src="anim/comparativo.html" title="Sem Calead o lead sobe uma ladeira e a maioria não chega; com Calead o percurso desce liso e quase todos chegam à reunião" loading="lazy" scrolling="no" style="width:100%;aspect-ratio:900/524;border:0;display:block"></iframe>
 </div>
 </div>
 
 
-<p style="font:400 clamp(20px,2.6vw,34px)/1.32 'Bricolage Grotesque',sans-serif;color:#F0F1E8;margin:clamp(64px,8vw,104px) 0 0;max-width:40ch;text-wrap:pretty">O gargalo não é a equipe. É a arquitetura: gente fazendo trabalho de máquina enquanto o lead espera atenção humana na hora errada.</p>
+<p style="font:400 clamp(20px,2.6vw,34px)/1.32 'Stack Sans Headline','Bricolage Grotesque',sans-serif;color:#F0F1E8;margin:clamp(64px,8vw,104px) 0 0;max-width:40ch;text-wrap:pretty">O gargalo não é a equipe. É a arquitetura: gente fazendo trabalho de máquina enquanto o lead espera atenção humana na hora errada.</p>
 </div>
 </section>
 
-<section id="virada" style="padding:clamp(96px,13vw,180px) 0;border-top:1px solid rgba(170,172,150,.1);background:#0F1009">
+<section id="virada" style="padding:clamp(96px,13vw,180px) 0;border-top:1px solid rgba(170,172,150,.1);background:#15170E">
 <div style="max-width:1180px;margin:0 auto;padding:0 24px">
 <p style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:rgba(164,166,142,.6);margin:0 0 28px">02 · A virada</p>
-<h2 style="font:400 clamp(36px,6vw,80px)/1 'Bricolage Grotesque',sans-serif;letter-spacing:-.038em;color:#D6EB1E;margin:0 0 40px;max-width:16ch;text-wrap:balance">A IA leva o lead até quem fecha.</h2>
-<p style="font:400 clamp(17px,1.7vw,21px)/1.6 Archivo,sans-serif;color:rgba(240,241,232,.9);margin:0 0 clamp(48px,6vw,72px);max-width:58ch;text-wrap:pretty">Boa parte do mercado tenta substituir vendedores por bots. Os dados apontam na direção contrária. Confiança e conexão se constroem cara a cara, e o papel da IA é garantir que a cadeira do vendedor esteja sempre ocupada pela pessoa certa, na hora certa.</p>
+<h2 style="font:400 clamp(36px,6vw,80px)/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.038em;color:#D6EB1E;margin:0 0 40px;max-width:16ch;text-wrap:balance">A IA leva o lead até quem fecha.</h2>
+<p style="font:400 clamp(17px,1.7vw,21px)/1.6 Archivo,sans-serif;color:rgba(240,241,232,.9);margin:0 0 clamp(48px,6vw,72px);max-width:58ch;text-wrap:pretty">O comprador quer autonomia na pesquisa e humano na decisão. Boa parte do mercado lê só a primeira metade disso e tenta substituir vendedores por bots. O papel da IA é cobrir a pesquisa e garantir que a cadeira do vendedor esteja ocupada pela pessoa certa quando a decisão chegar.</p>
 <div style="display:flex;flex-wrap:wrap;gap:1px;background:rgba(170,172,150,.16);border:1px solid rgba(170,172,150,.16);border-radius:12px;overflow:hidden">
 <div style="flex:1 1 240px;background:#0C0D08;padding:28px 26px 30px">
-<p style="font:400 clamp(28px,3vw,40px)/1 'Bricolage Grotesque',sans-serif;letter-spacing:-.04em;color:#F0F1E8;margin:0 0 12px">75%</p>
-<p style="font:400 14.5px/1.55 Archivo,sans-serif;color:rgba(164,166,142,.75);margin:0;text-wrap:pretty">dos compradores B2B vão preferir vendas com interação humana até 2030, projeta o Gartner.</p>
+<p style="font:400 clamp(28px,3vw,40px)/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.04em;color:#F0F1E8;margin:0 0 12px">70%</p>
+<p style="font:400 14.5px/1.55 Archivo,sans-serif;color:rgba(164,166,142,.75);margin:0;text-wrap:pretty">dos compradores B2B preferem pesquisar sozinhos, sem vendedor. E quase os mesmos 70% recorrem a um humano para validar o que descobriram, segundo a Gartner.</p><div style="margin-top:18px;display:flex;flex-direction:column;gap:11px">
+<div>
+<div style="height:8px;border-radius:999px;background:rgba(170,172,150,.14);overflow:hidden"><span style="display:block;height:8px;width:70%;background:rgba(164,166,142,.45)"></span></div>
+<span style="display:block;font:500 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(164,166,142,.5);margin-top:7px">pesquisam sozinhos</span>
+</div>
+<div>
+<div style="height:8px;border-radius:999px;background:rgba(170,172,150,.14);overflow:hidden"><span style="display:block;height:8px;width:70%;background:#D6EB1E"></span></div>
+<span style="display:block;font:500 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(214,235,30,.7);margin-top:7px">procuram um humano para decidir</span>
+</div></div>
 </div>
 <div style="flex:1 1 240px;background:#0C0D08;padding:28px 26px 30px">
-<p style="font:400 clamp(28px,3vw,40px)/1 'Bricolage Grotesque',sans-serif;letter-spacing:-.04em;color:#F0F1E8;margin:0 0 12px">88%</p>
-<p style="font:400 14.5px/1.55 Archivo,sans-serif;color:rgba(164,166,142,.75);margin:0;text-wrap:pretty">só compram de quem enxergam como conselheiro de confiança.</p>
+<p style="font:400 clamp(28px,3vw,40px)/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.04em;color:#F0F1E8;margin:0 0 12px">88%</p>
+<p style="font:400 14.5px/1.55 Archivo,sans-serif;color:rgba(164,166,142,.75);margin:0;text-wrap:pretty">só compram de quem enxergam como conselheiro de confiança.</p><div style="margin-top:18px">
+<div style="display:flex;height:10px;border-radius:999px;overflow:hidden;background:rgba(170,172,150,.14)">
+<span style="width:88%;background:#D6EB1E"></span></div>
+<div style="display:flex;justify-content:space-between;margin-top:9px;font:500 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(164,166,142,.5)"><span>conselheiro de confiança</span><span>12%</span></div></div>
 </div>
 <div style="flex:1 1 240px;background:#0C0D08;padding:28px 26px 30px">
-<p style="font:400 clamp(28px,3vw,40px)/1 'Bricolage Grotesque',sans-serif;letter-spacing:-.04em;color:#F0F1E8;margin:0 0 12px">+50%</p>
-<p style="font:400 14.5px/1.55 Archivo,sans-serif;color:rgba(164,166,142,.75);margin:0;text-wrap:pretty">de receita em modelos híbridos, com vendedores apoiados por canais digitais, segundo a McKinsey.</p>
+<p style="font:400 clamp(28px,3vw,40px)/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.04em;color:#F0F1E8;margin:0 0 12px">+50%</p>
+<p style="font:400 14.5px/1.55 Archivo,sans-serif;color:rgba(164,166,142,.75);margin:0;text-wrap:pretty">de receita em modelos híbridos, com vendedores apoiados por canais digitais, segundo a McKinsey.</p><div style="display:flex;align-items:flex-end;gap:10px;margin-top:18px;height:52px">
+<span style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-end;height:100%">
+<span style="height:52%;background:rgba(170,172,150,.2);border-radius:3px 3px 0 0"></span>
+<span style="font:500 9.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.45);margin-top:7px">só presencial</span></span>
+<span style="flex:1 1 auto;display:flex;flex-direction:column;justify-content:flex-end;height:100%">
+<span style="height:100%;background:#D6EB1E;border-radius:3px 3px 0 0"></span>
+<span style="font:500 9.5px/1 Archivo,sans-serif;color:rgba(214,235,30,.7);margin-top:7px">híbrido</span></span>
+<span style="flex:1 1 auto"></span></div>
 </div>
 </div>
-<p style="font:400 clamp(22px,2.8vw,36px)/1.24 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#F0F1E8;margin:clamp(48px,6vw,72px) 0 0;max-width:34ch;text-wrap:balance">Cada agente do Calead trabalha para um único objetivo: colocar seu lead na frente do seu vendedor.</p>
+<p style="font:400 clamp(22px,2.8vw,36px)/1.24 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#F0F1E8;margin:clamp(48px,6vw,72px) 0 0;max-width:34ch;text-wrap:balance">Cada agente do Calead trabalha para um único objetivo: colocar seu lead na frente do seu vendedor.</p>
 </div>
 </section>
 
 <section id="mecanismo" style="border-top:1px solid rgba(170,172,150,.1)">
 <div style="max-width:1180px;margin:0 auto;padding:clamp(96px,13vw,180px) 24px clamp(48px,6vw,72px)">
 <p style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:rgba(164,166,142,.6);margin:0 0 28px">03 · O mecanismo</p>
-<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 24px;max-width:20ch;text-wrap:balance">Uma base de conhecimento. Quatro momentos.</h2>
+<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 24px;max-width:20ch;text-wrap:balance">Uma base de conhecimento. Quatro momentos.</h2>
 <p style="font:400 clamp(16px,1.5vw,18.5px)/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;max-width:54ch;text-wrap:pretty">Você alimenta o Cérebro do Calead com o conhecimento da sua empresa. A partir dali, todos os agentes falam a mesma língua, do primeiro clique no site à análise da reunião.</p>
 </div>
 <div data-track style="position: relative">
 <div data-pin style="position: sticky; top: 0; min-height: 60vh; display: flex; align-items: center">
 <div style="width:100%;max-width:1180px;margin:0 auto;padding:0 24px;display:flex;flex-wrap:wrap-reverse;gap:clamp(32px,5vw,72px);align-items:center">
-<div style="flex:1 1 380px;min-width:280px;display:flex;flex-direction:column">
-<div data-step="0" class="step" style="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid #D6EB1E;color:#F0F1E8;transition:border-color .3s ease,color .3s ease">
+<div style="flex:1 1 380px;min-width:min(280px,100%);display:flex;flex-direction:column">
+<div data-step="0" class="stepbtn" style="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid #D6EB1E;color:#F0F1E8;transition:border-color .3s ease,color .3s ease">
 <p style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:inherit;opacity:.7;margin:0 0 10px">Antes</p>
-<h3 style="font:400 clamp(21px,2.4vw,30px)/1.18 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:inherit;margin:0">Atendimento e agendamento</h3>
+<h3 style="font:400 clamp(21px,2.4vw,30px)/1.18 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:inherit;margin:0">Atendimento e agendamento</h3>
 <div class="stepbody" data-body="0" style="max-height:340px;opacity:1;overflow:hidden;transition:max-height .38s cubic-bezier(.22,1,.36,1),opacity .3s ease .05s">
 <p style="font:400 15.5px/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:16px 0 0;max-width:48ch;text-wrap:pretty">Seu melhor vendedor atendendo o site 24 horas por dia. O visitante conversa por texto ou por voz em tempo real, resolve as dúvidas simples e recebe as datas disponíveis na tela, sem abrir outra aba. Do primeiro campo preenchido em diante, o lead já está registrado.</p>
 </div>
 </div>
-<div data-step="1" class="step" style="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid rgba(170,172,150,.18);color:rgba(164,166,142,.5);transition:border-color .3s ease,color .3s ease">
+<div data-step="1" class="stepbtn" style="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid rgba(170,172,150,.18);color:rgba(164,166,142,.5);transition:border-color .3s ease,color .3s ease">
 <p style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:inherit;opacity:.7;margin:0 0 10px">Durante</p>
-<h3 style="font:400 clamp(21px,2.4vw,30px)/1.18 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:inherit;margin:0">Assistente de reunião</h3>
+<h3 style="font:400 clamp(21px,2.4vw,30px)/1.18 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:inherit;margin:0">Assistente de reunião</h3>
 <div class="stepbody" data-body="1" style="max-height:0;opacity:0;overflow:hidden;transition:max-height .32s cubic-bezier(.22,1,.36,1),opacity .18s ease">
 <p style="font:400 15.5px/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:16px 0 0;max-width:48ch;text-wrap:pretty">O agente entra na call com o seu time. Gera o resumo comercial, registra objeções e mede o Sales Connection Score. Você sai da reunião sabendo o que foi dito e como a relação evoluiu.</p>
 </div>
 </div>
-<div data-step="2" class="step" style="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid rgba(170,172,150,.18);color:rgba(164,166,142,.5);transition:border-color .3s ease,color .3s ease">
+<div data-step="2" class="stepbtn" style="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid rgba(170,172,150,.18);color:rgba(164,166,142,.5);transition:border-color .3s ease,color .3s ease">
 <p style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:inherit;opacity:.7;margin:0 0 10px">Depois</p>
-<h3 style="font:400 clamp(21px,2.4vw,30px)/1.18 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:inherit;margin:0">Automações e recuperação</h3>
+<h3 style="font:400 clamp(21px,2.4vw,30px)/1.18 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:inherit;margin:0">Automações e recuperação</h3>
 <div class="stepbody" data-body="2" style="max-height:0;opacity:0;overflow:hidden;transition:max-height .32s cubic-bezier(.22,1,.36,1),opacity .18s ease">
 <p style="font:400 15.5px/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:16px 0 0;max-width:48ch;text-wrap:pretty">Confirmações, lembretes, follow-ups e resumo pós-reunião por e-mail e WhatsApp. No-shows, leads frios e agendamentos abandonados entram em réguas automáticas. Nenhum lead morre por esquecimento.</p>
 </div>
 </div>
-<div data-step="3" class="step" style="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid rgba(170,172,150,.18);color:rgba(164,166,142,.5);transition:border-color .3s ease,color .3s ease">
+<div data-step="3" class="stepbtn" style="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid rgba(170,172,150,.18);color:rgba(164,166,142,.5);transition:border-color .3s ease,color .3s ease">
 <p style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:inherit;opacity:.7;margin:0 0 10px">Sempre</p>
-<h3 style="font:400 clamp(21px,2.4vw,30px)/1.18 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:inherit;margin:0">Painel e copiloto de IA</h3>
+<h3 style="font:400 clamp(21px,2.4vw,30px)/1.18 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:inherit;margin:0">Painel e copiloto de IA</h3>
 <div class="stepbody" data-body="3" style="max-height:0;opacity:0;overflow:hidden;transition:max-height .32s cubic-bezier(.22,1,.36,1),opacity .18s ease">
 <p style="font:400 15.5px/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:16px 0 0;max-width:48ch;text-wrap:pretty">Taxa de agendamento, comparecimento, objeções mais frequentes e a evolução do Connection Score do time. E a IA dentro do dashboard para pensar junto, sobre uma reunião específica ou sobre o trimestre.</p>
 </div>
 </div>
 </div>
-<div style="flex:1 1 420px;min-width:280px;position:relative;aspect-ratio:4/3;border:1px solid rgba(170,172,150,.16);background:#0F1009;border-radius:12px">
-<div class="stepvis" data-vis="0" style="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:1;transform:scale(1);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:auto"><div style="width:100%;height:100%;min-height:180px;background:repeating-linear-gradient(135deg,#0F1009 0 8px,#12130C 8px 16px);display:flex;align-items:center;justify-content:center;border-radius:12px"><span style="font:400 12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;color:rgba(164,166,142,.6);text-align:center;padding:0 20px">Captador conversando no site</span></div></div>
-<div class="stepvis" data-vis="1" style="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:0;transform:scale(1.02);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:none"><div style="width:100%;height:100%;min-height:180px;background:repeating-linear-gradient(135deg,#0F1009 0 8px,#12130C 8px 16px);display:flex;align-items:center;justify-content:center;border-radius:12px"><span style="font:400 12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;color:rgba(164,166,142,.6);text-align:center;padding:0 20px">Assistente dentro da reunião</span></div></div>
-<div class="stepvis" data-vis="2" style="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:0;transform:scale(1.02);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:none"><div style="width:100%;height:100%;min-height:180px;background:repeating-linear-gradient(135deg,#0F1009 0 8px,#12130C 8px 16px);display:flex;align-items:center;justify-content:center;border-radius:12px"><span style="font:400 12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;color:rgba(164,166,142,.6);text-align:center;padding:0 20px">Régua de recuperação</span></div></div>
-<div class="stepvis" data-vis="3" style="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:0;transform:scale(1.02);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:none"><div style="width:100%;height:100%;min-height:180px;background:repeating-linear-gradient(135deg,#0F1009 0 8px,#12130C 8px 16px);display:flex;align-items:center;justify-content:center;border-radius:12px"><span style="font:400 12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;color:rgba(164,166,142,.6);text-align:center;padding:0 20px">Painel de insights</span></div></div>
+<div style="flex:1 1 420px;min-width:min(280px,100%);position:relative;aspect-ratio:4/3;border:1px solid rgba(170,172,150,.16);background:#0F1009;border-radius:12px"><p style="position:absolute;left:0;right:0;bottom:-26px;font:400 11px/1 Archivo,sans-serif;color:rgba(164,166,142,.45);text-align:center;margin:0">Ilustração da interface</p>
+<div class="stepvis" data-vis="0" style="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:1;transform:scale(1);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:auto"><div data-mock style="position:absolute;top:0;left:0;width:420px;height:315px;transform-origin:top left;display:flex;flex-direction:column;justify-content:center;gap:12px;padding:20px;background:#0A0B07;border-radius:12px;overflow:hidden">
+<div style="display:flex;align-items:center;gap:10px;background:#0F1009;border:1px solid rgba(170,172,150,.16);border-radius:999px;padding:6px 6px 6px 12px;">
+<span style="flex:0 0 auto;width:22px;height:22px;border-radius:999px;background:radial-gradient(circle at 32% 30%,#EAF77A,#C4DC12 60%,#8FA30C)"></span>
+<span style="flex:1 1 auto;font:400 12px/1 Archivo,sans-serif;color:rgba(164,166,142,.55);border-left:1px solid rgba(170,172,150,.25);padding-left:10px">Pergunte algo…</span>
+<span style="flex:0 0 auto;display:flex;align-items:center;gap:7px;background:#141509;border:1px solid rgba(214,235,30,.28);border-radius:999px;padding:5px 6px 5px 13px">
+<span style="font:500 11.5px/1 Archivo,sans-serif;color:rgba(240,241,232,.92)">Conversar</span>
+<span style="width:20px;height:20px;border-radius:999px;background:#D6EB1E;display:flex;align-items:center;justify-content:center">
+<svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="#11120C" stroke-width="2.4" stroke-linecap="round"><path d="M12 3v9"/><path d="M8 8a4 4 0 0 0 8 0"/><path d="M12 17v3"/></svg>
+</span></span></div>
+<div style="border:1px solid rgba(170,172,150,.16);border-radius:14px;background:#0F1009;padding:14px">
+<div style="display:flex;align-items:flex-start;gap:11px">
+<div style="flex:1 1 auto;min-width:0"><p style="font:400 13px/1.3 Archivo,sans-serif;color:rgba(240,241,232,.94);margin:0">Agende uma<br>conversa de <strong style="font-weight:600">30min</strong></p></div>
+<div style="flex:0 0 auto;display:flex;align-items:center;gap:8px">
+<span style="width:30px;height:30px;border-radius:999px;background:linear-gradient(150deg,#3A3D2E,#22241A);border:1px solid rgba(170,172,150,.22)"></span>
+<span><span style="display:block;font:600 11.5px/1.2 Archivo,sans-serif;color:rgba(240,241,232,.94)">Rodrigo Neves</span><span style="display:block;font:400 10px/1.2 Archivo,sans-serif;color:rgba(164,166,142,.55);margin-top:3px">CEO da Helplus</span></span>
+</div></div>
+<p style="font:400 10.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.55);margin:16px 0 9px">Sugestões de agenda:</p>
+<div style="display:flex;flex-wrap:wrap;gap:8px"><div style="flex:1 1 128px;display:flex;align-items:center;gap:10px;border:1px solid rgba(170,172,150,.16);border-radius:10px;padding:8px 10px">
+<span style="flex:0 0 auto;text-align:center"><span style="display:block;font:400 8.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.6)">Sex</span><span style="display:block;font:400 17px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin-top:3px">28</span></span>
+<span style="flex:0 0 auto;width:1px;height:22px;background:rgba(170,172,150,.22)"></span>
+<span style="flex:1 1 auto;font:500 13px/1 Archivo,sans-serif;color:rgba(240,241,232,.92)">15:30</span>
+<svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="rgba(164,166,142,.6)" stroke-width="2.2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></div><div style="flex:1 1 128px;display:flex;align-items:center;gap:10px;border:1px solid rgba(170,172,150,.16);border-radius:10px;padding:8px 10px">
+<span style="flex:0 0 auto;text-align:center"><span style="display:block;font:400 8.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.6)">Seg</span><span style="display:block;font:400 17px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin-top:3px">31</span></span>
+<span style="flex:0 0 auto;width:1px;height:22px;background:rgba(170,172,150,.22)"></span>
+<span style="flex:1 1 auto;font:500 13px/1 Archivo,sans-serif;color:rgba(240,241,232,.92)">11:00</span>
+<svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="rgba(164,166,142,.6)" stroke-width="2.2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></div><div style="flex:1 1 128px;display:flex;align-items:center;gap:10px;border:1px solid rgba(170,172,150,.16);border-radius:10px;padding:8px 10px">
+<span style="flex:0 0 auto;text-align:center"><span style="display:block;font:400 8.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.6)">Ter</span><span style="display:block;font:400 17px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin-top:3px">01</span></span>
+<span style="flex:0 0 auto;width:1px;height:22px;background:rgba(170,172,150,.22)"></span>
+<span style="flex:1 1 auto;font:500 13px/1 Archivo,sans-serif;color:rgba(240,241,232,.92)">14:00</span>
+<svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="rgba(164,166,142,.6)" stroke-width="2.2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></div><div style="flex:1 1 128px;display:flex;align-items:center;justify-content:space-between;gap:8px;border:1px solid rgba(170,172,150,.16);border-radius:10px;padding:13px 12px">
+<span style="font:500 12.5px/1 Archivo,sans-serif;color:rgba(240,241,232,.9)">Mais horários</span>
+<svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="rgba(164,166,142,.6)" stroke-width="2.2" stroke-linecap="round"><path d="M9 5l7 7-7 7"/></svg></div></div>
+</div></div></div>
+<div class="stepvis" data-vis="1" style="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:0;transform:scale(1.02);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:none"><div data-mock style="position:absolute;top:0;left:0;width:420px;height:315px;transform-origin:top left;display:flex;flex-direction:column;background:#0A0B07;border-radius:12px;overflow:hidden">
+<div style="flex:0 0 auto;display:flex;align-items:center;gap:9px;padding:13px 16px;border-bottom:1px solid rgba(170,172,150,.16)">
+<span style="width:16px;height:16px;border-radius:5px;background:#D6EB1E"></span>
+<span style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(240,241,232,.9)">Sales Connection Score</span>
+<span style="margin-left:auto;display:flex;gap:5px"><span style="width:5px;height:5px;border-radius:999px;background:rgba(170,172,150,.3)"></span><span style="width:5px;height:5px;border-radius:999px;background:rgba(170,172,150,.3)"></span><span style="width:5px;height:5px;border-radius:999px;background:rgba(170,172,150,.3)"></span></span>
+</div>
+<div style="flex:1 1 auto;min-height:0;padding:16px;display:flex;flex-direction:column;overflow:hidden"><div style="display:flex;gap:14px;align-items:center;flex:1 1 auto;min-height:0">
+<div style="flex:0 0 auto;width:104px;height:104px;border-radius:999px;background:conic-gradient(#D6EB1E 0% 84%,rgba(170,172,150,.14) 84% 100%);display:flex;align-items:center;justify-content:center">
+<div style="width:80px;height:80px;border-radius:999px;background:#0A0B07;display:flex;flex-direction:column;align-items:center;justify-content:center">
+<span style="font:600 8px/1 Archivo,sans-serif;letter-spacing:.14em;color:rgba(164,166,142,.6);margin-bottom:3px">SCORE</span>
+<span style="font:400 34px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.04em;color:#D6EB1E">84</span>
+<span style="font:500 8.5px/1 Archivo,sans-serif;color:rgba(214,235,30,.75);margin-top:3px">↗ 12 vs período</span>
+</div></div>
+<div style="flex:1 1 auto;display:flex;flex-wrap:wrap;gap:7px">
+<div style="flex:1 1 46%;min-width:min(120px,100%);display:flex;align-items:center;gap:9px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:9px 10px">
+<span style="flex:0 0 auto;width:26px;height:26px;border-radius:999px;background:conic-gradient(#D6EB1E 0% 86%,rgba(170,172,150,.16) 86% 100%);display:flex;align-items:center;justify-content:center">
+<span style="width:18px;height:18px;border-radius:999px;background:#0A0B07;display:flex;align-items:center;justify-content:center;font:600 8.5px/1 Archivo,sans-serif;color:#D6EB1E">86</span></span>
+<span style="font:400 10.5px/1.25 Archivo,sans-serif;color:rgba(184,186,164,.82)">Conexão &amp; Rapport</span>
+</div><div style="flex:1 1 46%;min-width:min(120px,100%);display:flex;align-items:center;gap:9px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:9px 10px">
+<span style="flex:0 0 auto;width:26px;height:26px;border-radius:999px;background:conic-gradient(#D6EB1E 0% 81%,rgba(170,172,150,.16) 81% 100%);display:flex;align-items:center;justify-content:center">
+<span style="width:18px;height:18px;border-radius:999px;background:#0A0B07;display:flex;align-items:center;justify-content:center;font:600 8.5px/1 Archivo,sans-serif;color:#D6EB1E">81</span></span>
+<span style="font:400 10.5px/1.25 Archivo,sans-serif;color:rgba(184,186,164,.82)">Autoridade</span>
+</div><div style="flex:1 1 46%;min-width:min(120px,100%);display:flex;align-items:center;gap:9px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:9px 10px">
+<span style="flex:0 0 auto;width:26px;height:26px;border-radius:999px;background:conic-gradient(#D6EB1E 0% 79%,rgba(170,172,150,.16) 79% 100%);display:flex;align-items:center;justify-content:center">
+<span style="width:18px;height:18px;border-radius:999px;background:#0A0B07;display:flex;align-items:center;justify-content:center;font:600 8.5px/1 Archivo,sans-serif;color:#D6EB1E">79</span></span>
+<span style="font:400 10.5px/1.25 Archivo,sans-serif;color:rgba(184,186,164,.82)">Diagnóstico</span>
+</div><div style="flex:1 1 46%;min-width:min(120px,100%);display:flex;align-items:center;gap:9px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:9px 10px">
+<span style="flex:0 0 auto;width:26px;height:26px;border-radius:999px;background:conic-gradient(#D6EB1E 0% 88%,rgba(170,172,150,.16) 88% 100%);display:flex;align-items:center;justify-content:center">
+<span style="width:18px;height:18px;border-radius:999px;background:#0A0B07;display:flex;align-items:center;justify-content:center;font:600 8.5px/1 Archivo,sans-serif;color:#D6EB1E">88</span></span>
+<span style="font:400 10.5px/1.25 Archivo,sans-serif;color:rgba(184,186,164,.82)">Condução</span>
+</div>
+</div>
+</div>
+<p style="font:400 10.5px/1.4 Archivo,sans-serif;color:rgba(164,166,142,.55);margin:12px 0 0;padding-top:11px;border-top:1px solid rgba(170,172,150,.16)">Melhor call do período: 91 · Pilar a desenvolver: Diagnóstico</p></div>
+</div></div>
+<div class="stepvis" data-vis="2" style="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:0;transform:scale(1.02);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:none"><div data-mock style="position:absolute;top:0;left:0;width:420px;height:315px;transform-origin:top left;display:flex;flex-direction:column;background:#0A0B07;border-radius:12px;overflow:hidden">
+<div style="flex:0 0 auto;display:flex;align-items:center;gap:9px;padding:13px 16px;border-bottom:1px solid rgba(170,172,150,.16)">
+<span style="width:16px;height:16px;border-radius:5px;background:#D6EB1E"></span>
+<span style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(240,241,232,.9)">Automações</span>
+<span style="margin-left:auto;display:flex;gap:5px"><span style="width:5px;height:5px;border-radius:999px;background:rgba(170,172,150,.3)"></span><span style="width:5px;height:5px;border-radius:999px;background:rgba(170,172,150,.3)"></span><span style="width:5px;height:5px;border-radius:999px;background:rgba(170,172,150,.3)"></span></span>
+</div>
+<div style="flex:1 1 auto;min-height:0;padding:16px;display:flex;flex-direction:column;overflow:hidden"><div style="display:flex;flex-direction:column;gap:13px;flex:1 1 auto;min-height:0;position:relative">
+<span style="position:absolute;left:4px;top:10px;bottom:14px;width:1px;background:linear-gradient(180deg,#D6EB1E,rgba(170,172,150,.2))"></span>
+<div style="display:flex;align-items:flex-start;gap:11px">
+<span style="flex:0 0 auto;width:9px;height:9px;margin-top:4px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span>
+<span style="flex:1 1 auto;min-width:0">
+<span style="display:block;font:400 12px/1.35 Archivo,sans-serif;color:rgba(240,241,232,.92)">Reunião confirmada</span>
+<span style="display:block;font:500 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(164,166,142,.5);margin-top:5px">na hora · e-mail + WhatsApp</span>
+</span></div>
+<div style="display:flex;align-items:flex-start;gap:11px">
+<span style="flex:0 0 auto;width:9px;height:9px;margin-top:4px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span>
+<span style="flex:1 1 auto;min-width:0">
+<span style="display:block;font:400 12px/1.35 Archivo,sans-serif;color:rgba(240,241,232,.92)">Lembrete com o link da call</span>
+<span style="display:block;font:500 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(164,166,142,.5);margin-top:5px">24h antes · WhatsApp</span>
+</span></div>
+<div style="display:flex;align-items:flex-start;gap:11px">
+<span style="flex:0 0 auto;width:9px;height:9px;margin-top:4px;border-radius:999px;background:#D6EB1E;border:1px solid #D6EB1E"></span>
+<span style="flex:1 1 auto;min-width:0">
+<span style="display:block;font:400 12px/1.35 Archivo,sans-serif;color:rgba(240,241,232,.92)">Aviso prévio</span>
+<span style="display:block;font:500 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(164,166,142,.5);margin-top:5px">2h antes · WhatsApp</span>
+</span></div>
+<div style="display:flex;align-items:flex-start;gap:11px">
+<span style="flex:0 0 auto;width:9px;height:9px;margin-top:4px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span>
+<span style="flex:1 1 auto;min-width:0">
+<span style="display:block;font:400 12px/1.35 Archivo,sans-serif;color:rgba(164,166,142,.6)">Entra na régua de recuperação</span>
+<span style="display:block;font:500 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(164,166,142,.5);margin-top:5px">no-show · WhatsApp</span>
+</span></div>
+<div style="display:flex;align-items:flex-start;gap:11px">
+<span style="flex:0 0 auto;width:9px;height:9px;margin-top:4px;border-radius:999px;background:transparent;border:1px solid rgba(170,172,150,.4)"></span>
+<span style="flex:1 1 auto;min-width:0">
+<span style="display:block;font:400 12px/1.35 Archivo,sans-serif;color:rgba(164,166,142,.6)">Resumo e próximo passo</span>
+<span style="display:block;font:500 10px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(164,166,142,.5);margin-top:5px">depois · e-mail</span>
+</span></div>
+</div>
+<div style="flex:0 0 auto;display:flex;gap:8px;margin-top:12px;padding-top:12px;border-top:1px solid rgba(170,172,150,.16)">
+<span style="font:500 10.5px/1 Archivo,sans-serif;color:#11120C;background:#D6EB1E;padding:7px 10px;border-radius:999px">3 ativas</span>
+<span style="font:500 10.5px/1 Archivo,sans-serif;color:rgba(184,186,164,.75);border:1px solid rgba(170,172,150,.16);padding:6px 10px;border-radius:999px">2 na fila</span>
+</div></div>
+</div></div>
+<div class="stepvis" data-vis="3" style="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:0;transform:scale(1.02);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:none"><div data-mock style="position:absolute;top:0;left:0;width:420px;height:315px;transform-origin:top left;display:flex;flex-direction:column;background:#0A0B07;border-radius:12px;overflow:hidden">
+<div style="flex:0 0 auto;display:flex;align-items:center;gap:9px;padding:13px 16px;border-bottom:1px solid rgba(170,172,150,.16)">
+<span style="width:16px;height:16px;border-radius:5px;background:#D6EB1E"></span>
+<span style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(240,241,232,.9)">Painel</span>
+<span style="margin-left:auto;display:flex;gap:5px"><span style="width:5px;height:5px;border-radius:999px;background:rgba(170,172,150,.3)"></span><span style="width:5px;height:5px;border-radius:999px;background:rgba(170,172,150,.3)"></span><span style="width:5px;height:5px;border-radius:999px;background:rgba(170,172,150,.3)"></span></span>
+</div>
+<div style="flex:1 1 auto;min-height:0;padding:16px;display:flex;flex-direction:column;overflow:hidden"><div style="display:flex;gap:8px;flex:0 0 auto">
+<div style="flex:1 1 88px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:10px 11px 9px">
+<span style="display:block;font:600 8.5px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:rgba(164,166,142,.55)">Chats</span>
+<span style="display:block;font:400 21px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:#F0F1E8;margin-top:7px">116</span>
+<svg viewBox="0 0 100 24" preserveAspectRatio="none" style="width:100%;height:22px;display:block;margin-top:8px"><polyline points="0,19 14,21 28,13 42,15 56,9 70,11 84,5 100,3" fill="none" stroke="#D6EB1E" stroke-width="1.8" vector-effect="non-scaling-stroke"/></svg></div>
+<div style="flex:1 1 88px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:10px 11px 9px">
+<span style="display:block;font:600 8.5px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:rgba(164,166,142,.55)">Conversas</span>
+<span style="display:block;font:400 21px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:#F0F1E8;margin-top:7px">67</span>
+<svg viewBox="0 0 100 24" preserveAspectRatio="none" style="width:100%;height:22px;display:block;margin-top:8px"><polyline points="0,20 14,17 28,19 42,12 56,14 70,8 84,9 100,4" fill="none" stroke="#D6EB1E" stroke-width="1.8" vector-effect="non-scaling-stroke"/></svg></div>
+<div style="flex:1 1 88px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:10px 11px 9px">
+<span style="display:block;font:600 8.5px/1 Archivo,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:rgba(164,166,142,.55)">Agendados</span>
+<span style="display:block;font:400 21px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:#F0F1E8;margin-top:7px">45</span>
+<svg viewBox="0 0 100 24" preserveAspectRatio="none" style="width:100%;height:22px;display:block;margin-top:8px"><polyline points="0,21 14,20 28,15 42,17 56,11 70,12 84,7 100,5" fill="none" stroke="#D6EB1E" stroke-width="1.8" vector-effect="non-scaling-stroke"/></svg></div>
+</div>
+<div style="flex:1 1 auto;min-height:0;display:flex;align-items:center;margin-top:12px;padding-top:13px;border-top:1px solid rgba(170,172,150,.16)">
+<div style="width:100%">
+<p style="font:600 9px/1 Archivo,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:rgba(164,166,142,.55);margin:0 0 14px">Do acesso à reunião</p>
+<div style="display:flex;align-items:flex-start;gap:6px"><div style="flex:1 1 60px;text-align:center">
+<span style="display:block;font:400 18px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:rgba(240,241,232,.9)">1.240</span>
+<span style="display:block;font:400 9.5px/1.3 Archivo,sans-serif;color:rgba(164,166,142,.55);margin-top:6px">acessos</span></div><div style="flex:1 1 60px;text-align:center">
+<span style="display:block;font:400 18px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:rgba(240,241,232,.9)">116</span>
+<span style="display:block;font:400 9.5px/1.3 Archivo,sans-serif;color:rgba(164,166,142,.55);margin-top:6px">conversas</span></div><div style="flex:1 1 60px;text-align:center">
+<span style="display:block;font:400 18px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:rgba(240,241,232,.9)">45</span>
+<span style="display:block;font:400 9.5px/1.3 Archivo,sans-serif;color:rgba(164,166,142,.55);margin-top:6px">agendaram</span></div><div style="flex:1 1 60px;text-align:center">
+<span style="display:block;font:400 18px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:#D6EB1E">38</span>
+<span style="display:block;font:400 9.5px/1.3 Archivo,sans-serif;color:rgba(164,166,142,.55);margin-top:6px">realizadas</span></div></div>
+<div style="height:2px;background:linear-gradient(90deg,rgba(170,172,150,.2),#D6EB1E);margin-top:14px;border-radius:999px"></div>
+</div>
+</div></div>
+</div></div>
 </div>
 </div>
 </div>
@@ -203,42 +379,101 @@ a:hover { color: #E6F55C; }
 <section id="bento" style="padding:clamp(96px,13vw,180px) 0;border-top:1px solid rgba(170,172,150,.1);background:#0F1009">
 <div style="max-width:1180px;margin:0 auto;padding:0 24px">
 <p style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:rgba(164,166,142,.6);margin:0 0 28px">04 · Na prática</p>
-<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 clamp(48px,6vw,72px);max-width:22ch;text-wrap:balance">O que o Calead faz enquanto você fecha.</h2>
+<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 clamp(48px,6vw,72px);max-width:22ch;text-wrap:balance">O que o Calead faz enquanto você fecha.</h2>
 <div style="display:flex;flex-direction:column;gap:16px">
 <div style="display:flex;flex-wrap:wrap;gap:16px">
 <div data-reveal style="flex:2 1 420px;border:1px solid rgba(170,172,150,.16);background:#0C0D08;padding:clamp(28px,3vw,40px);display:flex;flex-direction:column;gap:18px;border-radius:12px">
 <span style="align-self:flex-start;font:600 10.5px/1 Archivo,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#11120C;background:#D6EB1E;padding:7px 12px;border-radius:999px">Voz e texto</span>
-<h3 style="font:400 clamp(24px,2.8vw,34px)/1.14 'Bricolage Grotesque',sans-serif;letter-spacing:-.028em;color:#F0F1E8;margin:0;max-width:22ch">Uma conversa em tempo real, sobre qualquer coisa da sua empresa</h3>
+<h3 style="font:400 clamp(24px,2.8vw,34px)/1.14 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.028em;color:#F0F1E8;margin:0;max-width:22ch">Uma conversa em tempo real, sobre qualquer coisa da sua empresa</h3>
 <p style="font:400 15.5px/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;max-width:46ch;text-wrap:pretty">O visitante pode interromper no meio da frase, mudar de assunto e voltar atrás, como faria com uma pessoa do outro lado da linha.</p>
-<div style="width:100%;height:100%;min-height:180px;background:repeating-linear-gradient(135deg,#0F1009 0 8px,#12130C 8px 16px);display:flex;align-items:center;justify-content:center;border-radius:12px"><span style="font:400 12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em;text-transform:uppercase;color:rgba(164,166,142,.6);text-align:center;padding:0 20px">Captador em conversa por voz</span></div>
+<div style="margin-top:auto;border:1px solid rgba(170,172,150,.16);border-radius:10px;background:#0A0B07;padding:14px;display:flex;flex-direction:column;gap:9px">
+<div style="align-self:flex-end;max-width:76%;background:#D6EB1E;color:#11120C;font:400 12.5px/1.45 Archivo,sans-serif;padding:9px 13px;border-radius:13px 13px 4px 13px">Na verdade, o que eu preciso é entender preço</div>
+<div style="align-self:flex-start;max-width:84%;background:rgba(170,172,150,.1);border:1px solid rgba(170,172,150,.16);color:rgba(240,241,232,.92);font:400 12.5px/1.45 Archivo,sans-serif;padding:9px 13px;border-radius:13px 13px 13px 4px">Sem problema, mudamos de assunto. O plano depende do volume de reuniões do seu time…</div>
+<div style="display:flex;align-items:center;gap:7px;padding-top:4px">
+<span style="display:flex;align-items:end;gap:2px;height:14px">
+<span style="width:2px;height:6px;background:#D6EB1E;border-radius:999px"></span><span style="width:2px;height:12px;background:#D6EB1E;border-radius:999px"></span><span style="width:2px;height:8px;background:#D6EB1E;border-radius:999px"></span><span style="width:2px;height:14px;background:#D6EB1E;border-radius:999px"></span><span style="width:2px;height:5px;background:#D6EB1E;border-radius:999px"></span>
+</span>
+<span style="font:500 10.5px/1 Archivo,sans-serif;letter-spacing:.06em;color:rgba(164,166,142,.55)">ouvindo · interrompível a qualquer momento</span>
+</div>
+</div>
 </div>
 <div data-reveal style="flex:1 1 280px;border:1px solid rgba(170,172,150,.16);background:#0C0D08;padding:clamp(28px,3vw,36px);display:flex;flex-direction:column;gap:16px;border-radius:12px">
-<h3 style="font:400 22px/1.18 'Bricolage Grotesque',sans-serif;letter-spacing:-.022em;color:#F0F1E8;margin:0">Agendamento sugestivo</h3>
+<h3 style="font:400 22px/1.18 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.022em;color:#F0F1E8;margin:0">Agendamento sugestivo</h3>
 <p style="font:400 15px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">As datas disponíveis aparecem durante a navegação, no momento do interesse, sem tirar o visitante da página.</p>
-<div style="margin-top:auto;display:flex;flex-wrap:wrap;gap:8px">
-<span style="font:500 13px/1 Archivo,sans-serif;color:#11120C;background:#D6EB1E;padding:10px 14px;border-radius:999px">Ter 14h</span>
-<span style="font:500 13px/1 Archivo,sans-serif;color:rgba(184,186,164,.85);border:1px solid rgba(170,172,150,.24);padding:9px 13px;border-radius:999px">Ter 16h30</span>
-<span style="font:500 13px/1 Archivo,sans-serif;color:rgba(184,186,164,.85);border:1px solid rgba(170,172,150,.24);padding:9px 13px;border-radius:999px">Qua 9h</span>
+<div style="margin-top:auto;border:1px solid rgba(170,172,150,.16);border-radius:10px;background:#0A0B07;padding:14px 12px">
+<div style="display:flex;gap:7px;align-items:flex-end;overflow:hidden"><div style="flex:0 0 auto;text-align:center">
+<span style="display:block;font:500 8.5px/1 Archivo,sans-serif;color:rgba(214,235,30,.75);margin-bottom:7px">● 1 slot</span>
+<span style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:min(46px,100%);padding:9px 10px;border-radius:10px;border:1px solid #F0F1E8;background:#F0F1E8">
+<span style="font:400 8.5px/1 Archivo,sans-serif;color:rgba(17,18,12,.6)">Sex</span>
+<span style="font:400 17px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#11120C;margin-top:3px">28</span>
+</span></div><div style="flex:0 0 auto;text-align:center">
+<span style="display:block;font:500 8.5px/1 Archivo,sans-serif;color:rgba(214,235,30,.75);margin-bottom:7px">● 2 slots</span>
+<span style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:min(46px,100%);padding:9px 10px;border-radius:10px;border:1px solid rgba(170,172,150,.2);background:transparent">
+<span style="font:400 8.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.6)">Seg</span>
+<span style="font:400 17px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin-top:3px">31</span>
+</span></div><div style="flex:0 0 auto;text-align:center">
+<span style="display:block;font:500 8.5px/1 Archivo,sans-serif;color:rgba(214,235,30,.75);margin-bottom:7px">● 3 slots</span>
+<span style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:min(46px,100%);padding:9px 10px;border-radius:10px;border:1px solid rgba(170,172,150,.2);background:transparent">
+<span style="font:400 8.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.6)">Ter</span>
+<span style="font:400 17px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin-top:3px">01</span>
+</span></div><div style="flex:0 0 auto;text-align:center">
+<span style="display:block;font:500 8.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.4);margin-bottom:7px">—</span>
+<span style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:min(46px,100%);padding:9px 10px;border-radius:10px;border:1px solid rgba(170,172,150,.2);background:transparent">
+<span style="font:400 8.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.6)">Qua</span>
+<span style="font:400 17px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin-top:3px">02</span>
+</span></div><div style="flex:0 0 auto;text-align:center">
+<span style="display:block;font:500 8.5px/1 Archivo,sans-serif;color:rgba(214,235,30,.75);margin-bottom:7px">● 2 slots</span>
+<span style="display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:min(46px,100%);padding:9px 10px;border-radius:10px;border:1px solid rgba(170,172,150,.2);background:transparent">
+<span style="font:400 8.5px/1 Archivo,sans-serif;color:rgba(164,166,142,.6)">Qui</span>
+<span style="font:400 17px/1 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin-top:3px">03</span>
+</span></div></div>
+<p style="font:400 11px/1.4 Archivo,sans-serif;color:rgba(164,166,142,.5);margin:13px 0 0">O visitante escolhe o dia e o horário sem sair da página.</p>
 </div>
 </div>
 </div>
 <div style="display:flex;flex-wrap:wrap;gap:16px">
 <div data-reveal style="flex:1 1 260px;border:1px solid rgba(170,172,150,.16);background:#0C0D08;padding:clamp(26px,3vw,34px);border-radius:12px">
-<h3 style="font:400 20px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin:0 0 12px">Registro no primeiro campo</h3>
+<h3 style="font:400 20px/1.2 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin:0 0 12px">Registro no primeiro campo</h3>
 <p style="font:400 15px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">Preencheu o e-mail, virou lead. Parou no meio, entra na régua de recuperação.</p>
 </div>
 <div data-reveal style="flex:1 1 260px;border:1px solid rgba(170,172,150,.16);background:#0C0D08;padding:clamp(26px,3vw,34px);border-radius:12px">
-<h3 style="font:400 20px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin:0 0 12px">E-mail e WhatsApp</h3>
+<h3 style="font:400 20px/1.2 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin:0 0 12px">E-mail e WhatsApp</h3>
 <p style="font:400 15px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">Confirmação, lembrete, follow-up e resumo no canal que o lead brasileiro realmente abre.</p>
 </div>
 <div data-reveal style="flex:1 1 260px;border:1px solid rgba(170,172,150,.16);background:#0C0D08;padding:clamp(26px,3vw,34px);border-radius:12px">
-<h3 style="font:400 20px/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin:0 0 12px">Copiloto no dashboard</h3>
+<h3 style="font:400 20px/1.2 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.02em;color:#F0F1E8;margin:0 0 12px">Copiloto no dashboard</h3>
 <p style="font:400 15px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;text-wrap:pretty">Pergunte sobre uma reunião ou sobre uma métrica acumulada e receba a análise na hora.</p>
+</div>
+</div>
+<div data-reveal style="border:1px solid rgba(170,172,150,.16);background:#0C0D08;padding:clamp(28px,3vw,40px);display:flex;flex-wrap:wrap;gap:clamp(24px,4vw,48px);border-radius:12px">
+<div style="flex:1 1 300px;min-width:min(260px,100%)">
+<h3 style="font:400 clamp(22px,2.4vw,28px)/1.18 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.024em;color:#F0F1E8;margin:0 0 12px">O que as conversas te contam</h3>
+<p style="font:400 15px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 22px;max-width:44ch;text-wrap:pretty">Cada reunião e cada conversa no site viram material de leitura: as dores que mais aparecem, as objeções que travam a decisão e as frases que o cliente usou.</p>
+<div style="display:flex;flex-wrap:wrap;gap:7px"><span style="font:400 12px/1.35 Archivo,sans-serif;color:rgba(240,241,232,.88);border:1px solid rgba(214,235,30,.32);background:rgba(214,235,30,.06);padding:8px 12px;border-radius:999px">Dúvida sobre ROI vs. construir interno</span><span style="font:400 12px/1.35 Archivo,sans-serif;color:rgba(240,241,232,.88);border:1px solid rgba(214,235,30,.32);background:rgba(214,235,30,.06);padding:8px 12px;border-radius:999px">Falta de estrutura nos processos</span><span style="font:400 12px/1.35 Archivo,sans-serif;color:rgba(240,241,232,.88);border:1px solid rgba(214,235,30,.32);background:rgba(214,235,30,.06);padding:8px 12px;border-radius:999px">Autonomia operacional</span></div>
+</div>
+<div style="flex:1 1 300px;min-width:min(260px,100%);display:flex;flex-direction:column;gap:8px">
+<p style="font:600 9.5px/1 Archivo,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:rgba(164,166,142,.5);margin:0 0 4px">Objeções mais encontradas</p>
+<div style="display:flex;align-items:center;gap:10px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:10px 12px">
+<span style="flex:0 0 auto;width:6px;height:6px;border-radius:999px;background:#D6EB1E"></span>
+<span style="flex:1 1 auto;font:400 12.5px/1.35 Archivo,sans-serif;color:rgba(240,241,232,.88)">Prospect inclinado a construir solução própria</span>
+<span style="flex:0 0 auto;font:600 9px/1 Archivo,sans-serif;letter-spacing:.1em;color:rgba(164,166,142,.55)">ALTA</span>
+</div>
+<div style="display:flex;align-items:center;gap:10px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:10px 12px">
+<span style="flex:0 0 auto;width:6px;height:6px;border-radius:999px;background:#D6EB1E"></span>
+<span style="flex:1 1 auto;font:400 12.5px/1.35 Archivo,sans-serif;color:rgba(240,241,232,.88)">Ausência de próximos passos definidos</span>
+<span style="flex:0 0 auto;font:600 9px/1 Archivo,sans-serif;letter-spacing:.1em;color:rgba(164,166,142,.55)">ALTA</span>
+</div>
+<div style="display:flex;align-items:center;gap:10px;border:1px solid rgba(170,172,150,.16);border-radius:9px;padding:10px 12px">
+<span style="flex:0 0 auto;width:6px;height:6px;border-radius:999px;background:#D6EB1E"></span>
+<span style="flex:1 1 auto;font:400 12.5px/1.35 Archivo,sans-serif;color:rgba(240,241,232,.88)">Sem decisor financeiro na conversa</span>
+<span style="flex:0 0 auto;font:600 9px/1 Archivo,sans-serif;letter-spacing:.1em;color:rgba(164,166,142,.55)">ALTA</span>
+</div>
+<p style="font:400 12.5px/1.6 Archivo,sans-serif;color:rgba(164,166,142,.5);margin:10px 0 0;padding-top:12px;border-top:1px solid rgba(170,172,150,.16);text-wrap:pretty">“se eu consigo fazer isso de forma autônoma, para que eu vou usar vocês?”</p>
 </div>
 </div>
 <div data-reveal style="border:1px solid rgba(170,172,150,.16);background:#0C0D08;padding:clamp(28px,3vw,40px);display:flex;flex-wrap:wrap;gap:clamp(24px,4vw,56px);align-items:center;border-radius:12px">
 <div style="flex:1 1 300px">
-<h3 style="font:400 clamp(22px,2.4vw,28px)/1.18 'Bricolage Grotesque',sans-serif;letter-spacing:-.024em;color:#F0F1E8;margin:0 0 12px">Encaixa na operação que você já tem</h3>
+<h3 style="font:400 clamp(22px,2.4vw,28px)/1.18 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.024em;color:#F0F1E8;margin:0 0 12px">Encaixa na operação que você já tem</h3>
 <p style="font:400 15px/1.6 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;max-width:46ch;text-wrap:pretty">Um código no site e pronto. Leva minutos, sem projeto de TI.</p>
 </div>
 <div style="flex:1 1 320px;display:flex;flex-wrap:wrap;gap:8px">
@@ -255,25 +490,25 @@ a:hover { color: #E6F55C; }
 </div>
 </section>
 
-<section id="paraquem" style="padding:clamp(96px,13vw,180px) 0 clamp(56px,7vw,88px);border-top:1px solid rgba(170,172,150,.1)">
+<section id="paraquem" style="padding:clamp(96px,13vw,180px) 0 clamp(56px,7vw,88px);border-top:1px solid rgba(170,172,150,.1);background:#12140B">
 <div style="max-width:1180px;margin:0 auto;padding:0 24px">
 <p style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:rgba(164,166,142,.6);margin:0 0 28px">05 · Para quem</p>
-<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 24px;max-width:20ch;text-wrap:balance">Pensado para a realidade de operações B2B.</h2>
+<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 24px;max-width:20ch;text-wrap:balance">Pensado para a realidade de operações B2B.</h2>
 <p style="font:400 clamp(16px,1.5vw,18.5px)/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 clamp(48px,6vw,72px);max-width:56ch;text-wrap:pretty">Três coisas são verdade em qualquer operação que vende por reunião, do SaaS ao escritório de advocacia. O Calead foi construído em cima dessas três.</p>
 <div style="display:flex;flex-wrap:wrap;gap:clamp(28px,4vw,56px)">
 <div data-reveal style="flex:1 1 300px;padding:30px 0 0;border-top:1px solid rgba(214,235,30,.45)">
 <p style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.2em;color:rgba(214,235,30,.7);margin:0 0 16px">01</p>
-<h3 style="font:400 clamp(21px,2.3vw,27px)/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#F0F1E8;margin:0 0 12px;max-width:22ch">A agenda é o ativo mais disputado</h3>
+<h3 style="font:400 clamp(21px,2.3vw,27px)/1.2 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#F0F1E8;margin:0 0 12px;max-width:22ch">A agenda é o ativo mais disputado</h3>
 <p style="font:400 15px/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;max-width:42ch;text-wrap:pretty">Ninguém fecha no carrinho. O funil inteiro existe para produzir um horário marcado com a pessoa certa, e cada slot que fica vazio é receita que não volta.</p>
 </div>
 <div data-reveal style="flex:1 1 300px;padding:30px 0 0;border-top:1px solid rgba(214,235,30,.45)">
 <p style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.2em;color:rgba(214,235,30,.7);margin:0 0 16px">02</p>
-<h3 style="font:400 clamp(21px,2.3vw,27px)/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#F0F1E8;margin:0 0 12px;max-width:22ch">O interesse tem prazo de validade</h3>
+<h3 style="font:400 clamp(21px,2.3vw,27px)/1.2 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#F0F1E8;margin:0 0 12px;max-width:22ch">O interesse tem prazo de validade</h3>
 <p style="font:400 15px/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;max-width:42ch;text-wrap:pretty">A vontade de conversar dura minutos e aparece à noite, no fim de semana e no meio de outra reunião sua. Ela não espera até segunda para ser atendida.</p>
 </div>
 <div data-reveal style="flex:1 1 300px;padding:30px 0 0;border-top:1px solid rgba(214,235,30,.45)">
 <p style="font:600 11px/1 Archivo,sans-serif;letter-spacing:.2em;color:rgba(214,235,30,.7);margin:0 0 16px">03</p>
-<h3 style="font:400 clamp(21px,2.3vw,27px)/1.2 'Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#F0F1E8;margin:0 0 12px;max-width:22ch">O tempo do time é o recurso mais caro</h3>
+<h3 style="font:400 clamp(21px,2.3vw,27px)/1.2 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.025em;color:#F0F1E8;margin:0 0 12px;max-width:22ch">O tempo do time é o recurso mais caro</h3>
 <p style="font:400 15px/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;max-width:42ch;text-wrap:pretty">O time comercial é pequeno para o volume que entra. Cada reunião com quem não estava pronto sai do lugar de uma que fecharia.</p>
 </div>
 </div>
@@ -290,31 +525,31 @@ a:hover { color: #E6F55C; }
 <div style="max-width:1180px;margin:0 auto;padding:0 24px;display:flex;flex-wrap:wrap;gap:clamp(40px,6vw,88px);align-items:center">
 <div style="flex:1 1 380px">
 <p style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:rgba(164,166,142,.6);margin:0 0 28px">06 · A metodologia</p>
-<h2 style="font:400 clamp(32px,4.8vw,60px)/1.03 'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 24px;max-width:20ch;text-wrap:balance">Confiança fecha contrato. Agora ela tem um número.</h2>
+<h2 style="font:400 clamp(32px,4.8vw,60px)/1.03 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 24px;max-width:20ch;text-wrap:balance">Confiança fecha contrato. Agora ela tem um número.</h2>
 <p style="font:400 clamp(16px,1.5vw,18.5px)/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 24px;max-width:52ch;text-wrap:pretty">Se 88% dos compradores só compram de quem consideram conselheiro de confiança, essa é a métrica que decide a venda. O Sales Connection Score avalia, reunião a reunião, o nível de conexão que o seu time constrói com cada lead.</p>
 <p style="font:400 clamp(16px,1.5vw,18.5px)/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0;max-width:52ch;text-wrap:pretty">No acumulado, o painel mostra a evolução por vendedor, quais fatores puxam o time para baixo e o que treinar na próxima semana.</p>
 </div>
 <div style="flex:1 1 340px;border:1px solid rgba(170,172,150,.16);background:#0F1009;padding:clamp(28px,3vw,40px);border-radius:12px">
 <p style="font:600 10.5px/1 Archivo,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:rgba(164,166,142,.55);margin:0 0 20px">Exemplo de leitura</p>
 <div style="display:flex;align-items:baseline;gap:14px;margin:0 0 32px">
-<p style="font:400 clamp(64px,9vw,104px)/.86 'Bricolage Grotesque',sans-serif;letter-spacing:-.05em;color:#D6EB1E;margin:0">82</p>
+<p style="font:400 clamp(64px,9vw,104px)/.86 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.05em;color:#D6EB1E;margin:0">82</p>
 <p style="font:400 15px/1.3 Archivo,sans-serif;color:rgba(164,166,142,.7);margin:0">de 100<br>nesta reunião</p>
 </div>
 <div style="display:flex;flex-direction:column;gap:18px">
 <div>
-<div style="display:flex;justify-content:space-between;gap:12px;margin:0 0 8px;font:500 14px/1 Archivo,sans-serif;color:rgba(240,241,232,.9)"><span>Escuta</span><span style="color:#D6EB1E">alta</span></div>
+<div style="display:flex;justify-content:space-between;gap:12px;margin:0 0 8px;font:500 14px/1 Archivo,sans-serif;color:rgba(240,241,232,.9)"><span>Conexão humana e rapport</span><span style="color:#D6EB1E">alta</span></div>
 <div style="height:3px;background:rgba(170,172,150,.18)"><div style="height:3px;width:88%;background:#D6EB1E"></div></div>
 </div>
 <div>
-<div style="display:flex;justify-content:space-between;gap:12px;margin:0 0 8px;font:500 14px/1 Archivo,sans-serif;color:rgba(240,241,232,.9)"><span>Clareza</span><span style="color:#D6EB1E">alta</span></div>
+<div style="display:flex;justify-content:space-between;gap:12px;margin:0 0 8px;font:500 14px/1 Archivo,sans-serif;color:rgba(240,241,232,.9)"><span>Autoridade e credibilidade</span><span style="color:#D6EB1E">alta</span></div>
 <div style="height:3px;background:rgba(170,172,150,.18)"><div style="height:3px;width:80%;background:#D6EB1E"></div></div>
 </div>
 <div>
-<div style="display:flex;justify-content:space-between;gap:12px;margin:0 0 8px;font:500 14px/1 Archivo,sans-serif;color:rgba(240,241,232,.9)"><span>Tratamento de objeções</span><span style="color:rgba(164,166,142,.7)">média</span></div>
+<div style="display:flex;justify-content:space-between;gap:12px;margin:0 0 8px;font:500 14px/1 Archivo,sans-serif;color:rgba(240,241,232,.9)"><span>Diagnóstico e investigação</span><span style="color:rgba(164,166,142,.7)">média</span></div>
 <div style="height:3px;background:rgba(170,172,150,.18)"><div style="height:3px;width:54%;background:rgba(214,235,30,.55)"></div></div>
 </div>
 <div>
-<div style="display:flex;justify-content:space-between;gap:12px;margin:0 0 8px;font:500 14px/1 Archivo,sans-serif;color:rgba(240,241,232,.9)"><span>Próximos passos combinados</span><span style="color:#D6EB1E">alta</span></div>
+<div style="display:flex;justify-content:space-between;gap:12px;margin:0 0 8px;font:500 14px/1 Archivo,sans-serif;color:rgba(240,241,232,.9)"><span>Condução e urgência</span><span style="color:#D6EB1E">alta</span></div>
 <div style="height:3px;background:rgba(170,172,150,.18)"><div style="height:3px;width:92%;background:#D6EB1E"></div></div>
 </div>
 </div>
@@ -325,7 +560,7 @@ a:hover { color: #E6F55C; }
 <section id="aprende" style="padding:clamp(96px,13vw,180px) 0;border-top:1px solid rgba(170,172,150,.1);background:#0F1009">
 <div style="max-width:1180px;margin:0 auto;padding:0 24px">
 <p style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:rgba(164,166,142,.6);margin:0 0 28px">07 · O ciclo</p>
-<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 24px;max-width:22ch;text-wrap:balance">Cada conversa deixa o sistema mais inteligente.</h2>
+<h2 style="font:400 clamp(34px,5.4vw,68px)/1.02 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.035em;color:#F0F1E8;margin:0 0 24px;max-width:22ch;text-wrap:balance">Cada conversa deixa o sistema mais inteligente.</h2>
 <p style="font:400 clamp(16px,1.5vw,18.5px)/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 clamp(48px,6vw,72px);max-width:62ch;text-wrap:pretty">As perguntas que aparecem no site e as objeções que aparecem nas reuniões alimentam a mesma base. As mais frequentes viram sugestões prontas no Captador, e os argumentos que funcionam viram padrão. O Calead do sexto mês vende melhor que o do primeiro dia.</p>
 <div style="border:1px solid rgba(170,172,150,.16);background:#0F1009;padding:clamp(18px,3vw,40px);border-radius:12px">
 <iframe data-anim src="anim/jornada.html" title="O caminho do lead: visita, conversa, agendamento, reunião e follow-up, com o sistema aprendendo a cada ciclo" loading="lazy" scrolling="no" style="width:100%;aspect-ratio:1080/364;border:0;display:block"></iframe>
@@ -336,7 +571,7 @@ a:hover { color: #E6F55C; }
 <section id="conversa" style="padding:clamp(96px,13vw,180px) 0;border-top:1px solid rgba(170,172,150,.1)">
 <div style="max-width:1180px;margin:0 auto;padding:0 24px;text-align:center;display:flex;flex-direction:column;align-items:center">
 <p style="font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#D6EB1E;margin:0 0 28px">Próximo passo</p>
-<h2 style="font:400 clamp(34px,5.6vw,74px)/1.01 'Bricolage Grotesque',sans-serif;letter-spacing:-.038em;color:#F0F1E8;margin:0 0 26px;max-width:20ch;text-wrap:balance">Uma conversa de 30 minutos sobre o seu funil.</h2>
+<h2 style="font:400 clamp(34px,5.6vw,74px)/1.01 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.038em;color:#F0F1E8;margin:0 0 26px;max-width:20ch;text-wrap:balance">Uma conversa de 30 minutos sobre o seu funil.</h2>
 <p style="font:400 clamp(17px,1.6vw,19px)/1.65 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 40px;max-width:56ch;text-wrap:pretty">Mapeamos onde seu funil perde reuniões hoje, do site ao pós-reunião, e mostramos o que os agentes fariam na sua operação. Você sai com o diagnóstico do funil, com ou sem proposta.</p>
 <a href="#conversa" class="calead-trigger hv-btn" style="background:#D6EB1E;color:#11120C;font:600 15px/1 Archivo,sans-serif;padding:18px 32px;border-radius:999px" >Agende uma conversa inicial</a>
 <p style="font:400 13.5px/1.5 Archivo,sans-serif;color:rgba(164,166,142,.6);margin:18px 0 0">Sem compromisso.</p>
@@ -346,38 +581,38 @@ a:hover { color: #E6F55C; }
 <section id="faq" style="padding:clamp(88px,11vw,140px) 0;border-top:1px solid rgba(170,172,150,.1)">
 <div style="max-width:1180px;margin:0 auto;padding:0 24px;display:flex;flex-wrap:wrap;gap:clamp(40px,6vw,72px);align-items:flex-start">
 <div style="flex:1 1 260px">
-<h2 style="font:400 clamp(28px,3.4vw,44px)/1.06 'Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:#F0F1E8;margin:0;max-width:16ch">Perguntas que sempre aparecem.</h2>
+<h2 style="font:400 clamp(28px,3.4vw,44px)/1.06 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.03em;color:#F0F1E8;margin:0;max-width:16ch">Perguntas que sempre aparecem.</h2>
 </div>
 <div style="flex:2 1 460px;display:flex;flex-direction:column;border-top:1px solid rgba(170,172,150,.16)">
 <div style="border-bottom:1px solid rgba(170,172,150,.16)">
-<button type="button" data-i="0" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">O Calead substitui meu time comercial?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" class="faqicon">+</span></button>
+<button type="button" data-i="0" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">O Calead substitui meu time comercial?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" data-faqicon="1">+</span></button>
 <div class="faqpanel" data-panel="0" hidden><p style="font:400 15.5px/1.7 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 24px;max-width:62ch;text-wrap:pretty">Não, e nem deveria. Os agentes cuidam do atendimento no site, da qualificação, do agendamento e do follow-up. As reuniões e o fechamento continuam com pessoas, porque nada substitui o olho no olho.</p></div>
 </div>
 <div style="border-bottom:1px solid rgba(170,172,150,.16)">
-<button type="button" data-i="1" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Por que não usar só um chatbot que responde tudo?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" class="faqicon">+</span></button>
+<button type="button" data-i="1" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Por que não usar só um chatbot que responde tudo?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" data-faqicon="1">+</span></button>
 <div class="faqpanel" data-panel="1" hidden><p style="font:400 15.5px/1.7 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 24px;max-width:62ch;text-wrap:pretty">Porque chatbot tentando vender sozinho derruba a confiança, e confiança é o que fecha contrato B2B. O Calead usa a IA onde ela rende mais (velocidade e consistência) e entrega o lead pronto para a etapa que só o humano resolve.</p></div>
 </div>
 <div style="border-bottom:1px solid rgba(170,172,150,.16)">
-<button type="button" data-i="2" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Como o Captador sabe responder sobre o meu negócio?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" class="faqicon">+</span></button>
+<button type="button" data-i="2" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Como o Captador sabe responder sobre o meu negócio?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" data-faqicon="1">+</span></button>
 <div class="faqpanel" data-panel="2" hidden><p style="font:400 15.5px/1.7 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 24px;max-width:62ch;text-wrap:pretty">Você alimenta o Cérebro do Calead com oferta, diferenciais e dúvidas frequentes. Todos os agentes respondem a partir dessa base, no tom da sua marca, e ela aprende com as perguntas que aparecem no site e nas reuniões.</p></div>
 </div>
 <div style="border-bottom:1px solid rgba(170,172,150,.16)">
-<button type="button" data-i="3" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Funciona no meu site?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" class="faqicon">+</span></button>
+<button type="button" data-i="3" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Funciona no meu site?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" data-faqicon="1">+</span></button>
 <div class="faqpanel" data-panel="3" hidden><p style="font:400 15.5px/1.7 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 24px;max-width:62ch;text-wrap:pretty">Sim. Instala com um código simples em qualquer construtor: Framer, WordPress, Wix, Webflow e outros. Leva minutos, sem projeto de TI.</p></div>
 </div>
 <div style="border-bottom:1px solid rgba(170,172,150,.16)">
-<button type="button" data-i="4" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Quanto tempo até ver resultado?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" class="faqicon">+</span></button>
+<button type="button" data-i="4" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Quanto tempo até ver resultado?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" data-faqicon="1">+</span></button>
 <div class="faqpanel" data-panel="4" hidden><p style="font:400 15.5px/1.7 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 24px;max-width:62ch;text-wrap:pretty">O Captador começa a converter visitantes em reuniões no dia da instalação. Confirmações e recuperações mostram efeito no no-show nas primeiras semanas.</p></div>
 </div>
 <div style="border-bottom:1px solid rgba(170,172,150,.16)">
-<button type="button" data-i="5" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Meus dados e os dos meus leads estão seguros?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" class="faqicon">+</span></button>
+<button type="button" data-i="5" class="faqbtn" style="width:100%;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;background:none;border:0;padding:22px 0;cursor:pointer;text-align:left;font:400 17.5px/1.35 'Stack Sans Headline','Bricolage Grotesque',sans-serif;letter-spacing:-.015em;color:#F0F1E8">Meus dados e os dos meus leads estão seguros?<span style="flex:0 0 auto;font:400 20px/1 Archivo,sans-serif;color:#D6EB1E;transition:transform .25s" data-faqicon="1">+</span></button>
 <div class="faqpanel" data-panel="5" hidden><p style="font:400 15.5px/1.7 Archivo,sans-serif;color:rgba(184,186,164,.85);margin:0 0 24px;max-width:62ch;text-wrap:pretty">Sim. Tudo criptografado, nunca compartilhado com terceiros. Os dados pertencem a você, sempre.</p></div>
 </div>
 </div>
 </div>
 </section>
 
-<footer style="border-top:1px solid rgba(170,172,150,.1);padding:64px 0 40px;background:#0F1009">
+<footer style="border-top:1px solid rgba(170,172,150,.1);padding:64px 0 0;background:#0F1009">
 <div style="max-width:1180px;margin:0 auto;padding:0 24px">
 <div style="display:flex;flex-wrap:wrap;gap:40px;justify-content:space-between;margin:0 0 48px">
 <div style="flex:1 1 280px">
@@ -405,101 +640,144 @@ a:hover { color: #E6F55C; }
 </div>
 <p style="font:400 13.5px/1.5 Archivo,sans-serif;color:rgba(164,166,142,.5);margin:0;padding-top:26px;border-top:1px solid rgba(170,172,150,.12)">© 2026 Calead AI. Todos os direitos reservados.</p>
 </div>
+<div style="position:relative;height:clamp(120px,17vw,210px);margin-top:clamp(40px,5vw,64px);overflow:hidden">
+<div style="position:absolute;inset:0;background:radial-gradient(ellipse 128% 132% at 50% 116%, rgba(214,235,30,.34) 0%, rgba(214,235,30,.15) 26%, rgba(214,235,30,.05) 46%, rgba(214,235,30,.012) 62%, rgba(214,235,30,0) 74%);-webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.35) 16%,#000 46%);mask-image:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.35) 16%,#000 46%)"></div>
+<div style="position:absolute;left:0;right:0;bottom:0;height:1px;background:linear-gradient(90deg,rgba(214,235,30,0),rgba(214,235,30,.55),rgba(214,235,30,0))"></div>
+
+</div>
 </footer>
 
 </div>
 <script>
 (function(){
-  var STEP_ON="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid #D6EB1E;color:#F0F1E8;transition:border-color .3s ease,color .3s ease", STEP_OFF="padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid rgba(170,172,150,.18);color:rgba(164,166,142,.5);transition:border-color .3s ease,color .3s ease";
-  var BODY_ON="max-height:340px;opacity:1;overflow:hidden;transition:max-height .38s cubic-bezier(.22,1,.36,1),opacity .3s ease .05s", BODY_OFF="max-height:0;opacity:0;overflow:hidden;transition:max-height .32s cubic-bezier(.22,1,.36,1),opacity .18s ease";
-  var VIS_ON="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:1;transform:scale(1);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:auto", VIS_OFF="position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:0;transform:scale(1.02);transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:none";
-  var steps=[].slice.call(document.querySelectorAll('[data-step]'));
-  var bodies=[].slice.call(document.querySelectorAll('[data-body]'));
-  var vis=[].slice.call(document.querySelectorAll('[data-vis]'));
-  var cur=0, target=0, visible=false, unpinned=false, queue=null;
+  var step=0, target=0, stepT=null, visible=false, unpinned=false;
+  var btns=[].slice.call(document.querySelectorAll('.stepbtn'));
+  var bodies=[].slice.call(document.querySelectorAll('.stepbody'));
+  var viss=[].slice.call(document.querySelectorAll('.stepvis'));
 
-  function apply(i){
-    cur=i;
-    steps.forEach(function(e){ e.setAttribute('style', e.dataset.step==String(i)?STEP_ON:STEP_OFF) });
-    bodies.forEach(function(e){ e.setAttribute('style', e.dataset.body==String(i)?BODY_ON:BODY_OFF) });
-    vis.forEach(function(e){ e.setAttribute('style', e.dataset.vis==String(i)?VIS_ON:VIS_OFF) });
+  function stepStyle(on){ return 'padding:22px 0 22px 22px;cursor:pointer;border-left:2px solid '+(on?'#D6EB1E':'rgba(170,172,150,.18)')+';color:'+(on?'#F0F1E8':'rgba(164,166,142,.5)')+';transition:border-color .3s ease,color .3s ease'; }
+  function bodyStyle(on){ return on?'max-height:340px;opacity:1;overflow:hidden;transition:max-height .38s cubic-bezier(.22,1,.36,1),opacity .3s ease .05s':'max-height:0;opacity:0;overflow:hidden;transition:max-height .32s cubic-bezier(.22,1,.36,1),opacity .18s ease'; }
+  function visStyle(on){ return 'position:absolute;inset:0;border-radius:12px;overflow:hidden;opacity:'+(on?'1':'0')+';transform:scale('+(on?'1':'1.02')+');transition:opacity .4s ease,transform .5s cubic-bezier(.22,1,.36,1);pointer-events:'+(on?'auto':'none'); }
+
+  function paint(){
+    btns.forEach(function(b,i){ b.setAttribute('style', stepStyle(i===step)); });
+    bodies.forEach(function(b){ b.setAttribute('style', bodyStyle(+b.dataset.body===step)); });
+    viss.forEach(function(v){ v.setAttribute('style', visStyle(+v.dataset.vis===step)); });
   }
-  // nenhuma etapa é pulada: a fila atravessa 0,1,2,3 em ordem
+  function setStep(i){ if(i===step) return; step=i; paint(); }
+  btns.forEach(function(b){ b.addEventListener('click',function(){ target=+b.dataset.step; setStep(target); }); });
+
+  // nenhuma etapa é pulada: a rolagem rápida enfileira as intermediárias
   function advance(){
-    if(queue||target===cur) return;
-    if(!visible){ apply(target); return; }
-    apply(cur+(target>cur?1:-1));
-    queue=setTimeout(function(){ queue=null; advance() },240);
-  }
-  steps.forEach(function(e){ e.addEventListener('click',function(){ target=Number(e.dataset.step); clearTimeout(queue); queue=null; apply(target) }) });
-
-  var track=document.querySelector('[data-track]'), pin=document.querySelector('[data-pin]');
-  function layoutPin(){
-    if(!track||!pin) return;
-    unpinned = window.innerWidth<900 || window.innerHeight<620;
-    if(unpinned){
-      track.style.height='auto'; pin.style.position='relative'; pin.style.minHeight='0';
-      pin.style.padding='0 0 clamp(72px,10vw,120px)';
-      steps.forEach(function(e){ e.setAttribute('style',STEP_ON) });
-      bodies.forEach(function(e){ e.setAttribute('style',BODY_ON) });
-      vis.forEach(function(e,i){ e.setAttribute('style', i===0?VIS_ON:VIS_OFF) });
-    } else {
-      track.style.height='400vh'; pin.style.position='sticky'; pin.style.minHeight='100vh';
-      pin.style.padding='clamp(40px,6vh,80px) 0';
-      apply(0); target=0;
-    }
+    if(stepT) return;
+    if(target===step) return;
+    if(!visible){ setStep(target); return; }
+    setStep(step+(target>step?1:-1));
+    stepT=setTimeout(function(){ stepT=null; advance(); },240);
   }
 
-  // o Captador é fixo na base: o hero precisa terminar acima dessa faixa
-  function fitHero(){
-    var hero=document.getElementById('top'); if(!hero) return;
-    var content=hero.lastElementChild, h1=hero.querySelector('h1'), last=hero.querySelector('p:last-of-type');
-    if(!content||!h1||!last) return;
-    var SAFE=150, short=window.innerHeight<760;
-    hero.style.minHeight = short?'auto':'92vh';
-    content.style.paddingTop = short?'40px':'';
-    content.style.paddingBottom = SAFE+'px';
-    h1.style.fontSize='clamp(42px,7.2vw,92px)';
-    var limit=window.innerHeight-SAFE, pad=40, size=0, guard=0;
-    function bottom(){ return last.getBoundingClientRect().bottom+window.scrollY }
-    while(bottom()>limit && guard++<8){
-      if(pad>16){ pad=Math.max(16,pad-12); content.style.paddingTop=pad+'px'; continue }
-      size=size||parseFloat(getComputedStyle(h1).fontSize);
-      if(size>34){ size=Math.max(34,size*0.9); h1.style.fontSize=size+'px'; continue }
-      break;
-    }
-  }
-
-  var bar=document.querySelector('[data-progress]'), raf=null;
-  function onScroll(){
-    if(bar){
-      var max=document.documentElement.scrollHeight-window.innerHeight;
-      bar.style.width=(max>0?Math.min(1,window.scrollY/max)*100:0).toFixed(2)+'%';
-    }
-    if(unpinned||!track) return;
-    var r=track.getBoundingClientRect(), span=r.height-window.innerHeight;
-    if(span<=0) return;
-    var p=Math.min(0.9999,Math.max(0,-r.top/span));
-    target=Math.min(3,Math.max(0,Math.floor(p*4+0.08)));
-    visible = r.bottom>0 && r.top<window.innerHeight;
-    advance();
-  }
+  var fbtns=[].slice.call(document.querySelectorAll('.faqbtn'));
+  var fpanels=[].slice.call(document.querySelectorAll('.faqpanel'));
+  fbtns.forEach(function(b){
+    b.addEventListener('click',function(){
+      var i=b.dataset.i, panel=fpanels.filter(function(p){return p.dataset.panel===i})[0];
+      var opening=panel&&panel.hidden;
+      fpanels.forEach(function(p){ p.hidden=true; });
+      fbtns.forEach(function(x){ var ic=x.querySelector('[data-faqicon]'); if(ic) ic.style.transform='rotate(0deg)'; });
+      if(opening){ panel.hidden=false; var ic=b.querySelector('[data-faqicon]'); if(ic) ic.style.transform='rotate(45deg)'; }
+    });
+  });
 
   function fitAnims(){
     [].slice.call(document.querySelectorAll('iframe[data-anim]')).forEach(function(f){
       var w=f.clientWidth||0;
-      f.style.aspectRatio=(w&&w<=760)?(f.getAttribute('data-ar-m')||'340/640'):(f.getAttribute('data-ar-d')||'1080/364');
+      var d=f.getAttribute('data-ar-d')||'1080/364';
+      var m=f.getAttribute('data-ar-m')||'340/640';
+      f.style.aspectRatio=(w&&w<=760)?m:d;
     });
+  }
+  // os mocks são desenhados em 420x315 e escalam proporcionalmente
+  function fitMocks(){
+    [].slice.call(document.querySelectorAll('[data-mock]')).forEach(function(m){
+      var p=m.parentElement; if(!p) return;
+      var w=p.clientWidth; if(!w) return;
+      m.style.transform='scale('+(w/420).toFixed(4)+')';
+    });
+  }
+  function layoutPin(){
+    var track=document.querySelector('[data-track]'), pin=document.querySelector('[data-pin]');
+    if(!track||!pin) return;
+    var narrow=window.innerWidth<900;
+    unpinned=narrow;
+    if(narrow){ track.style.height='auto'; pin.style.position='relative'; pin.style.height='auto'; pin.style.padding='0 0 clamp(72px,10vw,120px)'; }
+    else { track.style.height='400vh'; pin.style.position='sticky'; pin.style.height='100vh'; pin.style.padding='0'; }
+  }
+  // o hero termina acima do Captador, que é fixo na viewport
+  function fitHero(){
+    var hero=document.getElementById('top'); if(!hero) return;
+    var content=hero.lastElementChild, h1=hero.querySelector('h1');
+    var last=content&&content.lastElementChild;
+    if(!content||!h1||!last) return;
+    var w=document.querySelector('.cac-root');
+    var r=w&&w.getBoundingClientRect();
+    var SAFE=(r&&r.height)?Math.max(120,window.innerHeight-r.top+28):150;
+    var short=window.innerHeight<760;
+    var img=hero.querySelector('img');
+    hero.style.minHeight=short?'auto':'92vh';
+    content.style.paddingBottom=SAFE+'px';
+    h1.style.fontSize='clamp(38px,6.5vw,83px)';
+    var limit=window.innerHeight-SAFE;
+    function bottom(){ return last.getBoundingClientRect().bottom+window.scrollY; }
+    var pad=40,gap=1,size=0,guard=0;
+    function setGaps(){
+      if(img) img.style.marginBottom=(30*gap).toFixed(1)+'px';
+      h1.style.marginBottom=(26*gap).toFixed(1)+'px';
+      last.style.marginTop=(38*gap).toFixed(1)+'px';
+    }
+    content.style.paddingTop=pad+'px';
+    setGaps();
+    while(bottom()>limit&&guard++<24){
+      if(pad>12){ pad=Math.max(12,pad-10); content.style.paddingTop=pad+'px'; continue; }
+      if(gap>0.34){ gap=Math.max(0.34,gap-0.14); setGaps(); continue; }
+      size=size||parseFloat(getComputedStyle(h1).fontSize);
+      if(size>30){ size=Math.max(30,size*0.92); h1.style.fontSize=size+'px'; continue; }
+      break;
+    }
   }
   function scaleHero(){
     var wrap=document.querySelector('[data-us-wrap]');
     if(!wrap||!wrap.parentElement) return;
     var p=wrap.parentElement.getBoundingClientRect();
-    wrap.style.transform='translate(-50%,-50%) scale('+Math.max(p.width/1440,p.height/900,0.2).toFixed(3)+')';
+    var s=Math.max(p.width/1440,p.height/900,0.2);
+    wrap.style.transform='translate(-50%,-50%) scale('+s.toFixed(3)+')';
+  }
+  // o widget muda de altura ao expandir a agenda: remede em vez de confiar em timers
+  function watchWidget(){
+    function attach(){
+      var w=document.querySelector('.cac-root'); if(!w) return false;
+      if('ResizeObserver' in window) new ResizeObserver(fitHero).observe(w);
+      new MutationObserver(fitHero).observe(w,{attributes:true,childList:true,subtree:true});
+      fitHero(); return true;
+    }
+    if(attach()) return;
+    var n=0, poll=setInterval(function(){ if(attach()||++n>40) clearInterval(poll); },250);
   }
 
-  // CTAs tentam abrir o Captador e seguem rolando para #conversa de qualquer forma
-  [].slice.call(document.querySelectorAll('.calead-trigger')).forEach(function(el){
+  function onScroll(){
+    var doc=document.documentElement, bar=document.querySelector('[data-progress]');
+    if(bar){ var max=doc.scrollHeight-window.innerHeight; bar.style.width=(max>0?Math.min(1,window.scrollY/max)*100:0).toFixed(2)+'%'; }
+    if(unpinned) return;
+    var track=document.querySelector('[data-track]'); if(!track) return;
+    var r=track.getBoundingClientRect();
+    var span=r.height-window.innerHeight; if(span<=0) return;
+    var p=Math.min(0.9999,Math.max(0,-r.top/span));
+    target=Math.min(3,Math.max(0,Math.floor(p*4+0.08)));
+    visible=r.bottom>0&&r.top<window.innerHeight;
+    advance();
+  }
+
+  // CTAs abrem o Captador e seguem rolando para #conversa de qualquer forma
+  document.querySelectorAll('.calead-trigger').forEach(function(el){
     el.addEventListener('click',function(){
       var c=window.Calead, w=window.CaleadAiCaptador;
       try{
@@ -510,42 +788,30 @@ a:hover { color: #E6F55C; }
     });
   });
 
-  var fbtns=[].slice.call(document.querySelectorAll('.faqbtn'));
-  var fpanels=[].slice.call(document.querySelectorAll('.faqpanel'));
-  fbtns.forEach(function(b){
-    b.addEventListener('click',function(){
-      var i=b.dataset.i, panel=fpanels.filter(function(p){return p.dataset.panel===i})[0];
-      var opening=panel&&panel.hidden;
-      fpanels.forEach(function(p){p.hidden=true});
-      fbtns.forEach(function(x){var ic=x.querySelector('.faqicon'); if(ic) ic.style.transform='rotate(0deg)'});
-      if(opening){ panel.hidden=false; var ic=b.querySelector('.faqicon'); if(ic) ic.style.transform='rotate(45deg)'; }
-    });
-  });
-
   var els=[].slice.call(document.querySelectorAll('[data-reveal]'));
   if(els.length&&'IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
     els.forEach(function(el,i){
       if(el.getBoundingClientRect().top<window.innerHeight*0.9) return;
       var d=(i%3)*80;
-      el.style.opacity='0'; el.style.transform='translateY(18px)';
+      el.style.opacity='0';
+      el.style.transform='translateY(18px)';
       el.style.transition='opacity .7s cubic-bezier(.2,0,.2,1) '+d+'ms, transform .7s cubic-bezier(.2,0,.2,1) '+d+'ms';
     });
     var io=new IntersectionObserver(function(es){
-      es.forEach(function(e){ if(!e.isIntersecting) return; e.target.style.opacity='1'; e.target.style.transform='none'; io.unobserve(e.target) });
+      es.forEach(function(e){ if(!e.isIntersecting) return; e.target.style.opacity='1'; e.target.style.transform='none'; io.unobserve(e.target); });
     },{rootMargin:'0px 0px -14% 0px'});
-    els.forEach(function(el){io.observe(el)});
+    els.forEach(function(el){ io.observe(el); });
   }
 
-  layoutPin(); fitAnims(); fitHero(); scaleHero(); onScroll();
-  setTimeout(fitHero,600);
-  window.addEventListener('resize',function(){ layoutPin(); fitAnims(); fitHero(); scaleHero() });
-  window.addEventListener('scroll',function(){ if(raf) return; raf=requestAnimationFrame(function(){raf=null;onScroll()}) },{passive:true});
-  var n=0,poll=setInterval(function(){
-    n++;
-    if(window.UnicornStudio&&window.UnicornStudio.init){
-      try{window.UnicornStudio.init()}catch(e){}
-      clearInterval(poll); setTimeout(scaleHero,200);
-    } else if(n>40) clearInterval(poll);
+  fitAnims(); fitMocks(); layoutPin(); fitHero(); scaleHero(); watchWidget(); paint(); onScroll();
+  [600,1400].forEach(function(ms){ setTimeout(function(){ fitHero(); fitMocks(); },ms); });
+  window.addEventListener('resize',function(){ fitAnims(); fitMocks(); layoutPin(); fitHero(); scaleHero(); });
+  var raf=null;
+  window.addEventListener('scroll',function(){ if(raf) return; raf=requestAnimationFrame(function(){ raf=null; onScroll(); }); },{passive:true});
+  var un=0, up=setInterval(function(){
+    un++;
+    if(window.UnicornStudio&&window.UnicornStudio.init){ try{window.UnicornStudio.init()}catch(e){} clearInterval(up); setTimeout(scaleHero,200); }
+    else if(un>40) clearInterval(up);
   },250);
 })();
 </script>
