@@ -8,6 +8,9 @@
 <meta name="robots" content="index,follow">
 <link rel="icon" href="/assets/favicon.png">
 <link rel="canonical" href="https://www.calead.ai/politica-de-privacidade">
+<link rel="alternate" hreflang="pt-BR" href="https://www.calead.ai/politica-de-privacidade">
+<link rel="alternate" hreflang="en" href="https://www.calead.ai/privacy-policy">
+<link rel="alternate" hreflang="x-default" href="https://www.calead.ai/privacy-policy">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
@@ -15,20 +18,18 @@
 :root{--bg:#0A0B07;--surface:#0C0D08;--line:rgba(170,172,150,.22);--soft:rgba(170,172,150,.14);
 --txt:rgba(184,186,164,.88);--dim:rgba(184,186,164,.62);--hi:#EDEFE0;--accent:#D6EB1E}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--txt);
-font:400 16px/1.7 Archivo,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--bg);color:var(--txt);font:400 16px/1.7 Archivo,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 .wrap{max-width:820px;margin:0 auto;padding:clamp(48px,8vw,96px) 24px 120px}
-.top{display:flex;align-items:center;justify-content:space-between;gap:16px;
-padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:clamp(32px,5vw,56px);flex-wrap:wrap}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:clamp(32px,5vw,56px);flex-wrap:wrap}
 .brand{display:inline-flex;border:none}
 .brand img{height:24px;width:auto;display:block}
-.nav{display:flex;gap:20px;font-size:14px}
-.nav a{color:var(--dim);text-decoration:none}
+.nav{display:flex;gap:20px;font-size:14px;align-items:center}
+.nav a{color:var(--dim);text-decoration:none;border:none}
 .nav a:hover{color:var(--accent)}
-h1{font:500 clamp(30px,5vw,44px)/1.12 'Bricolage Grotesque',Archivo,sans-serif;
-color:var(--hi);letter-spacing:-.02em;margin:0 0 20px}
-h2{font:500 clamp(21px,3vw,27px)/1.25 'Bricolage Grotesque',Archivo,sans-serif;
-color:var(--hi);letter-spacing:-.015em;margin:64px 0 16px;padding-top:28px;border-top:1px solid var(--soft)}
+.nav .lang{border:1px solid var(--line);border-radius:999px;padding:4px 11px;font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.08em}
+.nav .lang:hover{border-color:var(--accent)}
+h1{font:500 clamp(30px,5vw,44px)/1.12 'Bricolage Grotesque',Archivo,sans-serif;color:var(--hi);letter-spacing:-.02em;margin:0 0 20px}
+h2{font:500 clamp(21px,3vw,27px)/1.25 'Bricolage Grotesque',Archivo,sans-serif;color:var(--hi);letter-spacing:-.015em;margin:64px 0 16px;padding-top:28px;border-top:1px solid var(--soft)}
 h3{font:600 17px/1.35 Archivo,sans-serif;color:var(--hi);margin:36px 0 12px}
 h4{font:600 15px/1.4 Archivo,sans-serif;color:var(--hi);margin:26px 0 10px}
 p{margin:0 0 16px;max-width:68ch}
@@ -38,14 +39,11 @@ a:hover{border-bottom-color:var(--accent)}
 ul,ol{margin:0 0 18px;padding-left:22px;max-width:68ch}
 li{margin:0 0 8px}
 li::marker{color:var(--accent)}
-code{font:500 13.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--soft);
-color:var(--hi);padding:3px 7px;border-radius:6px;word-break:break-all}
-.ph{color:var(--accent);background:rgba(214,235,30,.09);border:1px dashed rgba(214,235,30,.35);
-padding:1px 7px;border-radius:5px;font-size:.92em}
+code{font:500 13.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--soft);color:var(--hi);padding:3px 7px;border-radius:6px;word-break:break-all}
+.ph{color:var(--accent);background:rgba(214,235,30,.09);border:1px dashed rgba(214,235,30,.35);padding:1px 7px;border-radius:5px;font-size:.92em}
 .tw{overflow-x:auto;margin:0 0 24px;border:1px solid var(--line);border-radius:12px}
 table{border-collapse:collapse;width:100%;min-width:520px;font-size:14.5px}
-th{background:var(--soft);color:var(--hi);font-weight:600;text-align:left;
-padding:13px 16px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--soft);color:var(--hi);font-weight:600;text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);white-space:nowrap}
 td{padding:13px 16px;border-bottom:1px solid var(--soft);vertical-align:top}
 tr:last-child td{border-bottom:none}
 .foot{margin-top:80px;padding-top:28px;border-top:1px solid var(--line);font-size:14px;color:var(--dim)}
@@ -57,10 +55,11 @@ tr:last-child td{border-bottom:none}
 <body>
 <div class="wrap">
 <header class="top">
-<a class="brand" href="/"><img src="/assets/logo-calead.svg" alt="Calead" height="24"></a>
+<a class="brand" href="/"><img src="/assets/logo-calead.svg" alt="Calead"></a>
 <nav class="nav">
 <a href="/politica-de-privacidade">Privacidade</a>
 <a href="/termos-de-servico">Termos</a>
+<a class="lang" href="/privacy-policy">EN</a>
 </nav>
 </header>
 <main>
@@ -84,7 +83,7 @@ tr:last-child td{border-bottom:none}
 <p>Nome, e-mail, senha em formato de hash ou identificador do provedor de login, foto de perfil quando você entra com Google, telefone, empresa, cargo, fuso horário, idioma, organização a que pertence e papel dentro dela.</p>
 <p>Origem: fornecidos por você no cadastro, ou pelo Google quando você usa login com Google.</p>
 <h3>4.2 Dados obtidos das APIs do Google</h3>
-<ul><li>Identificação e lista dos calendários da conta conectada.</li><li>Períodos de ocupação (free/busy) usados para calcular disponibilidade.</li><li>Eventos criados, alterados ou cancelados pelo Calead, incluindo título, descrição, horário, link de videochamada e lista de participantes.</li><li>Tokens de acesso e de atualização (refresh token) da integração.</li></ul>
+<ul><li>Identificação dos calendários que você selecionar para uso no Calead.</li><li>Períodos de ocupação (free/busy) usados para calcular disponibilidade.</li><li>Eventos criados, alterados ou cancelados pelo Calead, incluindo título, descrição, horário, link de videochamada e lista de participantes.</li><li>Tokens de acesso e de atualização (refresh token) da integração.</li></ul>
 <h3>4.3 Dados de leads e agendamentos</h3>
 <p>Nome, e-mail, telefone ou WhatsApp, empresa, mensagem livre, respostas às perguntas configuradas pelo cliente no widget, horário escolhido, status do agendamento, anotações e histórico de interações.</p>
 <p>Origem: preenchidos pelo próprio lead no widget de agendamento ou no assistente de captação.</p>
@@ -108,8 +107,8 @@ tr:last-child td{border-bottom:none}
 <div class="tw"><table><thead><tr><th>Finalidade</th><th>Dados</th><th>Base legal (LGPD)</th></tr></thead><tbody><tr><td>Criar e manter sua conta, autenticar acesso</td><td>4.1</td><td>Execução de contrato (art. 7º, V)</td></tr><tr><td>Exibir disponibilidade e criar eventos na agenda</td><td>4.2</td><td>Execução de contrato</td></tr><tr><td>Receber, organizar e distribuir leads</td><td>4.3</td><td>Execução de contrato com o cliente; legítimo interesse do cliente controlador (art. 7º, IX)</td></tr><tr><td>Gravar, transcrever e resumir reuniões</td><td>4.4</td><td>Consentimento dos participantes, obtido pelo cliente (art. 7º, I)</td></tr><tr><td>Enviar confirmações, lembretes e automações por WhatsApp e e-mail</td><td>4.3, 4.5</td><td>Execução de contrato; consentimento quando a mensagem tiver caráter promocional</td></tr><tr><td>Sincronizar dados com o CRM do cliente</td><td>4.6</td><td>Execução de contrato</td></tr><tr><td>Medir conversão e atribuir origem dos agendamentos</td><td>4.7</td><td>Legítimo interesse (art. 7º, IX)</td></tr><tr><td>Cobrar assinaturas e controlar créditos</td><td>4.8</td><td>Execução de contrato; obrigação legal e fiscal (art. 7º, II)</td></tr><tr><td>Prevenir fraude, abuso e incidentes de segurança</td><td>4.9</td><td>Legítimo interesse; obrigação legal</td></tr><tr><td>Enviar comunicados sobre o produto</td><td>4.1</td><td>Legítimo interesse, com descadastramento em todo envio</td></tr></tbody></table></div>
 <h2>6. Uso de dados obtidos das APIs do Google</h2>
 <h3>6.1 Escopos solicitados e por que</h3>
-<div class="tw"><table><thead><tr><th>Escopo</th><th>Uso concreto no produto</th></tr></thead><tbody><tr><td><code>https://www.googleapis.com/auth/calendar.events.freebusy</code></td><td>Ler apenas os intervalos ocupados dos calendários selecionados, para calcular quais horários exibir no widget de agendamento</td></tr><tr><td><code>https://www.googleapis.com/auth/calendar.events</code></td><td>Criar o evento quando um lead agenda, atualizar horário em remarcações, cancelar o evento quando o agendamento é cancelado, e adicionar os participantes</td></tr><tr><td><code>https://www.googleapis.com/auth/calendar</code></td><td>Listar os calendários da conta para que você escolha em qual as reuniões serão criadas e quais entram no cálculo de disponibilidade</td></tr></tbody></table></div>
-<p>Solicitamos o escopo mínimo necessário para cada funcionalidade. Se um recurso é desativado, paramos de usar o dado correspondente.</p>
+<div class="tw"><table><thead><tr><th>Escopo</th><th>Uso concreto no produto</th></tr></thead><tbody><tr><td><code>https://www.googleapis.com/auth/calendar.events.freebusy</code></td><td>Ler apenas os intervalos ocupados dos calendários selecionados, para calcular quais horários exibir no widget de agendamento. Este escopo não dá acesso ao conteúdo dos eventos, apenas aos períodos livres e ocupados</td></tr><tr><td><code>https://www.googleapis.com/auth/calendar.events</code></td><td>Gerenciar os eventos de agendamento: criar o evento quando um lead agenda, adicionar os participantes e o link da videochamada, atualizar o horário em remarcações e cancelar o evento quando o agendamento é desmarcado</td></tr></tbody></table></div>
+<p>Solicitamos o escopo mínimo necessário para cada funcionalidade. O Calead não solicita acesso total ao calendário: não criamos nem excluímos calendários, não alteramos configurações da conta e não gerenciamos permissões de compartilhamento. Se um recurso é desativado, paramos de usar o dado correspondente.</p>
 <h3>6.2 Política de Uso Limitado</h3>
 <p>O uso e a transferência, pelo Calead, de informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado. Na prática:</p>
 <ol><li>Usamos os dados apenas para fornecer e melhorar as funcionalidades visíveis para você no produto.</li><li>Não transferimos os dados a terceiros, exceto quando necessário para prestar o serviço a você, por exigência legal, ou como parte de fusão ou aquisição com aviso prévio e consentimento.</li><li>Não usamos os dados para publicidade, incluindo publicidade personalizada, direcionada ou baseada em interesses.</li><li>Não permitimos que pessoas leiam esses dados, salvo com seu consentimento explícito para casos específicos, quando necessário por segurança, para cumprir a lei, ou quando os dados estiverem agregados e anonimizados.</li><li>Não usamos dados obtidos das APIs do Google para desenvolver, treinar ou aprimorar modelos de inteligência artificial ou aprendizado de máquina generalizados.</li></ol>
@@ -155,7 +154,7 @@ tr:last-child td{border-bottom:none}
 <p><strong>59.247.164 HUMBERTO TEIXEIRA DA SILVA</strong> (Calead)<br>CNPJ <strong>59.247.164/0001-60</strong><br><strong>Rua Clara Simões Speck, 163, Barra da Lagoa, Florianópolis/SC, CEP 88.061-255</strong><br>Privacidade: <strong>ola@calead.ai</strong><br>Encarregado pelo Tratamento de Dados Pessoais: <strong>Humberto Teixeira da Silva</strong>, <strong>ola@calead.ai</strong></p>
 </main>
 <footer class="foot">
-<p>Calead &middot; <a href="/politica-de-privacidade">Política de Privacidade</a> &middot; <a href="/termos-de-servico">Termos de Serviço</a></p>
+<p>Calead &middot; <a href="/politica-de-privacidade">Privacidade</a> &middot; <a href="/termos-de-servico">Termos</a> &middot; <a href="/privacy-policy">English</a></p>
 </footer>
 </div>
 </body>

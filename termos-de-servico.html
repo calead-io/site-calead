@@ -8,6 +8,9 @@
 <meta name="robots" content="index,follow">
 <link rel="icon" href="/assets/favicon.png">
 <link rel="canonical" href="https://www.calead.ai/termos-de-servico">
+<link rel="alternate" hreflang="pt-BR" href="https://www.calead.ai/termos-de-servico">
+<link rel="alternate" hreflang="en" href="https://www.calead.ai/terms-of-service">
+<link rel="alternate" hreflang="x-default" href="https://www.calead.ai/terms-of-service">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600&family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
@@ -15,20 +18,18 @@
 :root{--bg:#0A0B07;--surface:#0C0D08;--line:rgba(170,172,150,.22);--soft:rgba(170,172,150,.14);
 --txt:rgba(184,186,164,.88);--dim:rgba(184,186,164,.62);--hi:#EDEFE0;--accent:#D6EB1E}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--txt);
-font:400 16px/1.7 Archivo,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--bg);color:var(--txt);font:400 16px/1.7 Archivo,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 .wrap{max-width:820px;margin:0 auto;padding:clamp(48px,8vw,96px) 24px 120px}
-.top{display:flex;align-items:center;justify-content:space-between;gap:16px;
-padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:clamp(32px,5vw,56px);flex-wrap:wrap}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:28px;border-bottom:1px solid var(--line);margin-bottom:clamp(32px,5vw,56px);flex-wrap:wrap}
 .brand{display:inline-flex;border:none}
 .brand img{height:24px;width:auto;display:block}
-.nav{display:flex;gap:20px;font-size:14px}
-.nav a{color:var(--dim);text-decoration:none}
+.nav{display:flex;gap:20px;font-size:14px;align-items:center}
+.nav a{color:var(--dim);text-decoration:none;border:none}
 .nav a:hover{color:var(--accent)}
-h1{font:500 clamp(30px,5vw,44px)/1.12 'Bricolage Grotesque',Archivo,sans-serif;
-color:var(--hi);letter-spacing:-.02em;margin:0 0 20px}
-h2{font:500 clamp(21px,3vw,27px)/1.25 'Bricolage Grotesque',Archivo,sans-serif;
-color:var(--hi);letter-spacing:-.015em;margin:64px 0 16px;padding-top:28px;border-top:1px solid var(--soft)}
+.nav .lang{border:1px solid var(--line);border-radius:999px;padding:4px 11px;font:600 11.5px/1 Archivo,sans-serif;letter-spacing:.08em}
+.nav .lang:hover{border-color:var(--accent)}
+h1{font:500 clamp(30px,5vw,44px)/1.12 'Bricolage Grotesque',Archivo,sans-serif;color:var(--hi);letter-spacing:-.02em;margin:0 0 20px}
+h2{font:500 clamp(21px,3vw,27px)/1.25 'Bricolage Grotesque',Archivo,sans-serif;color:var(--hi);letter-spacing:-.015em;margin:64px 0 16px;padding-top:28px;border-top:1px solid var(--soft)}
 h3{font:600 17px/1.35 Archivo,sans-serif;color:var(--hi);margin:36px 0 12px}
 h4{font:600 15px/1.4 Archivo,sans-serif;color:var(--hi);margin:26px 0 10px}
 p{margin:0 0 16px;max-width:68ch}
@@ -38,14 +39,11 @@ a:hover{border-bottom-color:var(--accent)}
 ul,ol{margin:0 0 18px;padding-left:22px;max-width:68ch}
 li{margin:0 0 8px}
 li::marker{color:var(--accent)}
-code{font:500 13.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--soft);
-color:var(--hi);padding:3px 7px;border-radius:6px;word-break:break-all}
-.ph{color:var(--accent);background:rgba(214,235,30,.09);border:1px dashed rgba(214,235,30,.35);
-padding:1px 7px;border-radius:5px;font-size:.92em}
+code{font:500 13.5px/1 ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--soft);color:var(--hi);padding:3px 7px;border-radius:6px;word-break:break-all}
+.ph{color:var(--accent);background:rgba(214,235,30,.09);border:1px dashed rgba(214,235,30,.35);padding:1px 7px;border-radius:5px;font-size:.92em}
 .tw{overflow-x:auto;margin:0 0 24px;border:1px solid var(--line);border-radius:12px}
 table{border-collapse:collapse;width:100%;min-width:520px;font-size:14.5px}
-th{background:var(--soft);color:var(--hi);font-weight:600;text-align:left;
-padding:13px 16px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{background:var(--soft);color:var(--hi);font-weight:600;text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);white-space:nowrap}
 td{padding:13px 16px;border-bottom:1px solid var(--soft);vertical-align:top}
 tr:last-child td{border-bottom:none}
 .foot{margin-top:80px;padding-top:28px;border-top:1px solid var(--line);font-size:14px;color:var(--dim)}
@@ -57,10 +55,11 @@ tr:last-child td{border-bottom:none}
 <body>
 <div class="wrap">
 <header class="top">
-<a class="brand" href="/"><img src="/assets/logo-calead.svg" alt="Calead" height="24"></a>
+<a class="brand" href="/"><img src="/assets/logo-calead.svg" alt="Calead"></a>
 <nav class="nav">
 <a href="/politica-de-privacidade">Privacidade</a>
 <a href="/termos-de-servico">Termos</a>
+<a class="lang" href="/terms-of-service">EN</a>
 </nav>
 </header>
 <main>
@@ -146,7 +145,7 @@ tr:last-child td{border-bottom:none}
 <p><strong>59.247.164 HUMBERTO TEIXEIRA DA SILVA</strong> (Calead)<br>CNPJ <strong>59.247.164/0001-60</strong><br><strong>Rua Clara Simões Speck, 163, Barra da Lagoa, Florianópolis/SC, CEP 88.061-255</strong><br><strong>ola@calead.ai</strong></p>
 </main>
 <footer class="foot">
-<p>Calead &middot; <a href="/politica-de-privacidade">Política de Privacidade</a> &middot; <a href="/termos-de-servico">Termos de Serviço</a></p>
+<p>Calead &middot; <a href="/politica-de-privacidade">Privacidade</a> &middot; <a href="/termos-de-servico">Termos</a> &middot; <a href="/terms-of-service">English</a></p>
 </footer>
 </div>
 </body>

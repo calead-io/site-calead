@@ -7,6 +7,8 @@ Site estático da Calead. Sem build step: HTML, CSS inline e um script de compor
 - `index.html` — home no ar (v3)
 - `politica-de-privacidade.html` — Política de Privacidade (`/politica-de-privacidade`)
 - `termos-de-servico.html` — Termos de Serviço (`/termos-de-servico`)
+- `privacy-policy.html` — versão em inglês da política (`/privacy-policy`)
+- `terms-of-service.html` — versão em inglês dos termos (`/terms-of-service`)
 - `v3.html` — cópia da v3 para link direto
 - `v2.html` / `v1.html` — versões anteriores, mantidas para comparação (v1)
 - `v2.html` — narrativa unidirecional em seis atos (`/v2`, noindex)
@@ -31,5 +33,6 @@ Site estático da Calead. Sem build step: HTML, CSS inline e um script de compor
 - Webhook do formulário de agendamento (os CTAs apontam para a seção `#conversa`).
 - Captador do Calead no hero.
 - Página de blog.
-- Adicionar favicon e og:image às páginas legais.
+- Adicionar og:image às páginas legais.
+- As páginas legais são geradas a partir dos markdowns em `calead-io/calead.io`, pasta `legal/`. Editar lá e regerar, não editar o HTML à mão.
 - Cena do hero depende do projeto UnicornStudio `LEbaTZalLhAV6yt2oQTX`.
