@@ -35,4 +35,5 @@ Site estático da Calead. Sem build step: HTML, CSS inline e um script de compor
 - Página de blog.
 - Adicionar og:image às páginas legais.
 - As páginas legais são geradas a partir dos markdowns em `calead-io/calead.io`, pasta `legal/`. Editar lá e regerar, não editar o HTML à mão.
+- O seletor de idioma lista **inglês primeiro** de propósito: a revisão OAuth do Google é feita em inglês. Manter essa ordem enquanto a verificação estiver pendente.
 - Cena do hero depende do projeto UnicornStudio `LEbaTZalLhAV6yt2oQTX`.
