@@ -5,12 +5,14 @@ Site estático da Calead. Sem build step: HTML, CSS inline e um script de compor
 ## Estrutura
 
 - `index.html` — home no ar (v3)
+- `404.html` — página de erro, servida automaticamente pela Vercel
+- `robots.txt` / `sitemap.xml` — indexação
 - `politica-de-privacidade.html` — Política de Privacidade (`/politica-de-privacidade`)
 - `termos-de-servico.html` — Termos de Serviço (`/termos-de-servico`)
 - `privacy-policy.html` — versão em inglês da política (`/privacy-policy`)
 - `terms-of-service.html` — versão em inglês dos termos (`/terms-of-service`)
 - `v3.html` — cópia da v3 para link direto
-- `v2.html` / `v1.html` — versões anteriores, mantidas para comparação (v1)
+- `v2.html` / `v1.html` — versões anteriores, mantidas para comparação (v1). Todas com `noindex`
 - `v2.html` — narrativa unidirecional em seis atos (`/v2`, noindex)
 - `v3.html` — v2 com Captador real embutido, seção Para quem, bordas arredondadas e narrativa comprimida (`/v3`, noindex)
 - `assets/` — logo e favicon
