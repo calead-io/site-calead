@@ -5,6 +5,8 @@ Site estático da Calead. Sem build step: HTML, CSS inline e um script de compor
 ## Estrutura
 
 - `index.html` — home no ar (v3)
+- `politica-de-privacidade.html` — Política de Privacidade (`/politica-de-privacidade`)
+- `termos-de-servico.html` — Termos de Serviço (`/termos-de-servico`)
 - `v3.html` — cópia da v3 para link direto
 - `v2.html` / `v1.html` — versões anteriores, mantidas para comparação (v1)
 - `v2.html` — narrativa unidirecional em seis atos (`/v2`, noindex)
@@ -28,5 +30,6 @@ Site estático da Calead. Sem build step: HTML, CSS inline e um script de compor
 - As telas de produto da seção "O mecanismo" são interfaces recriadas em HTML, marcadas como "Ilustração da interface". Substituir por prints reais quando fizer sentido.
 - Webhook do formulário de agendamento (os CTAs apontam para a seção `#conversa`).
 - Captador do Calead no hero.
-- Páginas de blog, política de privacidade e termos de uso.
+- Página de blog.
+- Adicionar favicon e og:image às páginas legais.
 - Cena do hero depende do projeto UnicornStudio `LEbaTZalLhAV6yt2oQTX`.
