@@ -20,6 +20,10 @@
 <script src="https://app.calead.ai/widget.js" data-schedule="8qUuH40HZZK0z896wtrJ"></script>
 <style>
 html { scroll-behavior: smooth; overflow-x: hidden; }
+html, body { max-width: 100%; overflow-x: clip; }
+/* Cards em containers flex-wrap: sem border-box o padding soma por fora do
+   flex-basis e o card estoura a viewport no mobile. */
+[style*="flex:1 1"], [style*="flex: 1 1"] { box-sizing: border-box; min-width: 0; }
 body { margin: 0; background: #0C0D08; color: #F0F1E8; -webkit-font-smoothing: antialiased; font-family: Archivo, system-ui, sans-serif; }
 a { color: #D6EB1E; text-decoration: none; transition: color .2s, background .2s, border-color .2s; }
 a:hover { color: #E6F55C; }
@@ -131,7 +135,7 @@ a:hover { color: #E6F55C; }
 
 
 <div style="margin: clamp(64px,8vw,104px) 0 0; margin-top: 49px">
-<p style="font: 400 clamp(19px,2.2vw,28px)/1.4 'Stack Sans Headline','Bricolage Grotesque',sans-serif; color: #F0F1E8; margin: 0 0 36px; max-width: 44ch; text-wrap: pretty; width: 900px; height: 91px">Na prática, o lead sobe uma ladeira. <br>E a maioria desiste no meio.</p>
+<p style="font: 400 clamp(19px,2.2vw,28px)/1.4 'Stack Sans Headline','Bricolage Grotesque',sans-serif; color: #F0F1E8; margin: 0 0 36px; max-width: 44ch; text-wrap: pretty">Na prática, o lead sobe uma ladeira. <br>E a maioria desiste no meio.</p>
 <div style="border:1px solid rgba(170,172,150,.16);background:#0C0D08;padding:clamp(18px,3vw,36px);border-radius:12px">
 <iframe data-anim data-ar-d="900/524" data-ar-m="340/604" src="anim/comparativo.html" title="Sem Calead o lead sobe uma ladeira e a maioria não chega; com Calead o percurso desce liso e quase todos chegam à reunião" loading="lazy" scrolling="no" style="width:100%;aspect-ratio:900/524;border:0;display:block"></iframe>
 </div>
