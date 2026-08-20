@@ -27,9 +27,14 @@ Site estático da Calead. Sem build step: HTML, CSS inline e um script de compor
 3. Framework Preset: **Other**. Build Command: vazio. Output Directory: `.`
 4. Deploy. Cada push na `main` republica.
 
+## Tipografia
+
+- Títulos: **Stack Sans Headline**. Textos: **Stack Sans Text**. Ambas do Google Fonts.
+- As duas só existem no peso 400. Onde o site declara 500 ou 600 (labels, eyebrows, botões), o navegador sintetiza o negrito. Foi uma escolha, não um esquecimento: mantém a hierarquia sem trocar a família.
+- `v1.html`, `v2.html` e `v3.html` continuam em Bricolage e Archivo de propósito: são registro das versões anteriores.
+
 ## Pendências
 
-- Fonte Stack Sans Headline: os títulos declaram a família mas os arquivos não estão no repo, então o navegador cai em Bricolage Grotesque. Adicionar os `.woff2` e um `@font-face`.
 - Copy do Captador em inglês ("Schedule a 15-minute meeting"): vem da configuração do schedule no produto, não deste repo.
 - As telas de produto da seção "O mecanismo" são interfaces recriadas em HTML, marcadas como "Ilustração da interface". Substituir por prints reais quando fizer sentido.
 - Webhook do formulário de agendamento (os CTAs apontam para a seção `#conversa`).
